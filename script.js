@@ -132,7 +132,7 @@ const learnMoreButton = document.querySelector('.learn-more-btn56');
 // Add a click event listener
 learnMoreButton.addEventListener('click', () => {
   // Redirect to strategies.html
-  window.location.href = 'strategies.html';
+  window.location.href = 'mission.html';
 });
 
 
