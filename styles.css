@@ -1,0 +1,7357 @@
+/* General Styles */
+body {
+    margin: 0;
+    overflow-x: hidden;
+    font-family: Arial, sans-serif;
+  }
+
+/* Section 3: Our Approach & Goals */
+.section-approachGoals789 {
+
+  padding: 50px 20px;
+  border-left: 4px solid #d51a1a;
+}
+
+
+/* Section 7: NIST Framework in Penetration Testing */
+.section-nistFramework654 {
+  background-color: #f0f8ff;
+  padding: 50px 20px;
+  border-top: 4px solid #32CD32;
+}
+
+.section-title654 {
+  font-size: 28px;
+  color: #333;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.section-title654 i {
+  color: #32CD32;
+  margin-right: 10px;
+}
+
+.section-nistFramework654 p {
+  font-size: 16px;
+  color: #555;
+  max-width: 900px;
+  margin: 0 auto 40px auto;
+  line-height: 1.6;
+  text-align: center;
+}
+
+.nist-functions654 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 40px;
+}
+
+.function-card654 {
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  width: 180px;
+  padding: 15px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.function-card654:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+}
+
+.function-icon654 {
+  font-size: 24px;
+  color: #32CD32;
+  margin-bottom: 10px;
+}
+
+.function-card654 h3 {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.function-card654 p {
+  font-size: 14px;
+  color: #666;
+}
+
+.nist-diagram654 {
+  text-align: center;
+}
+
+.nist-diagram654 .img654 {
+  width: 50%;
+  max-width: 700px;
+  border-radius: 8px;
+
+}
+
+
+
+
+.section-title789 {
+  font-size: 28px;
+  color: #333;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.section-title789 i {
+  color: #d51a1a;
+  margin-right: 10px;
+}
+
+.section-approachGoals789 p {
+  font-size: 16px;
+  color: #555;
+  max-width: 850px;
+  margin: 0 auto 40px auto;
+  line-height: 1.6;
+  text-align: center;
+}
+
+.goals-list789 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+}
+
+.goal-item789 {
+  background-color: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  width: 200px;
+  padding: 20px;
+  text-align: center;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+
+/* Section 9: Persistence & Maintaining Access */
+.section-persistenceAccess321 {
+  background-color: #e9e9e9;
+  padding: 50px 20px;
+  border-top: 4px solid #32CD32;
+}
+
+/* Section 3: Tool Arsenal & Integration */
+.container #tools52 .section-title {
+  font-size: 30px;
+  color: #333;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.container #tools52 .section-title i {
+  color: #d51a1a;
+  margin-right: 10px;
+}
+
+.container #tools52 p {
+  font-size: 17px;
+  color: #555;
+  max-width: 900px;
+  margin: 0 auto 40px auto;
+  line-height: 1.7;
+  text-align: center;
+}
+
+.tool-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+}
+
+.tool-item {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  width: 220px;
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.tool-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
+
+.tool-item i {
+  font-size: 30px;
+  color: #d51a1a;
+  margin-bottom: 15px;
+}
+
+.tool-item h4 {
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.tool-item p {
+  font-size: 14px;
+  color: #666;
+}
+
+.tool-usageDetails52 {
+  max-width: 800px;
+  margin: 40px auto 0 auto;
+  padding: 20px;
+  background-color: #e6f7ff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.tool-usageDetails52 h3 {
+  font-size: 22px;
+  color: #333;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.tool-usageDetails52 ul {
+  list-style: disc;
+  padding-left: 40px;
+  font-size: 16px;
+  color: #555;
+  line-height: 1.6;
+}
+.section-title321 {
+  font-size: 28px;
+  color: #333;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.section-title321 i {
+  color: #32CD32;
+  margin-right: 10px;
+}
+
+.section-persistenceAccess321 p {
+  font-size: 16px;
+  color: #555;
+  max-width: 850px;
+  margin: 0 auto 40px auto;
+  line-height: 1.6;
+  text-align: center;
+}
+
+/* Section 6: Exploitation Techniques & Simulated Attack Scenarios */
+.container #exploit94 .section-title {
+  font-size: 30px;
+  color: #333;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.container #exploit94 .section-title i {
+  color: #d51a1a;
+  margin-right: 10px;
+}
+
+.container #exploit94 p {
+  font-size: 17px;
+  color: #555;
+  max-width: 900px;
+  margin: 0 auto 40px auto;
+  line-height: 1.7;
+  text-align: center;
+}
+
+.exploit-cards789 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+  margin-bottom: 40px;
+}
+
+.exploit-card789 {
+  background-color: #fff2e6;
+  border: 1px solid #d51a1a;
+  border-radius: 10px;
+  width: 260px;
+  padding: 20px;
+  text-align: left;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.exploit-card789:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
+
+.exploit-icon789 {
+  font-size: 30px;
+  color: #d51a1a;
+  margin-bottom: 15px;
+}
+
+.exploit-card789 h3 {
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.exploit-card789 p {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.exploit-card789 ul {
+  list-style: none;
+  padding-left: 0;
+  font-size: 14px;
+  color: #555;
+}
+
+.exploit-card789 ul li {
+  margin-bottom: 8px;
+}
+
+.simulated-attack-chart789 {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.simulated-attack-chart789 canvas {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+.persistence-methods321 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+}
+
+
+
+/* Section 6: Lateral Movement & Pivoting */
+.section-lateralMovement321 {
+  background-color: #e6f7ff;
+  padding: 50px 20px;
+  border-top: 4px solid #d51a1a;
+}
+
+.section-title321 {
+  font-size: 30px;
+  color: #333;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.section-title321 i {
+  color: #d51a1a;
+  margin-right: 10px;
+}
+
+.section-lateralMovement321 p {
+  font-size: 17px;
+  color: #555;
+  max-width: 900px;
+  margin: 0 auto 40px auto;
+  line-height: 1.7;
+  text-align: center;
+}
+
+.lateral-movement-step321 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+  margin-bottom: 40px;
+}
+
+.step-item321 {
+  background-color: #fff2e6;
+  border: 1px solid #d51a1a;
+  border-radius: 10px;
+  width: 240px;
+  padding: 20px;
+  text-align: left;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.step-item321:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
+
+.step-item321 h3 {
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.step-item321 i {
+  color: #d51a1a;
+  margin-bottom: 10px;
+  font-size: 24px;
+}
+
+.step-item321 p {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.step-item321 ul {
+  list-style: none;
+  padding-left: 0;
+  font-size: 14px;
+  color: #555;
+}
+/* Section 7: Post-Exploitation & Persistence Techniques */
+.container #postexploit36 .section-title {
+  font-size: 30px;
+  color: #333;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.container #postexploit36 .section-title i {
+  color: #d51a1a;
+  margin-right: 10px;
+}
+
+.container #postexploit36 p {
+  font-size: 17px;
+  color: #555;
+  max-width: 900px;
+  margin: 0 auto 30px auto;
+  line-height: 1.7;
+  text-align: center;
+}
+
+.persistence-list {
+  list-style: none;
+  padding-left: 0;
+  max-width: 800px;
+  margin: 0 auto 40px auto;
+  font-size: 16px;
+  color: #555;
+}
+
+.persistence-list li {
+  margin-bottom: 15px;
+  position: relative;
+  padding-left: 25px;
+}
+/* Section 9: Reporting & Documentation of Findings */
+.container #report78 .section-title {
+  font-size: 30px;
+  color: #333;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.container #report78 .section-title i {
+  color: #d51a1a;
+  margin-right: 10px;
+}
+
+.container #report78 p {
+  font-size: 17px;
+  color: #555;
+  max-width: 900px;
+  margin: 0 auto 30px auto;
+  line-height: 1.7;
+  text-align: center;
+}
+
+.report-list {
+  list-style: decimal;
+  padding-left: 40px;
+  max-width: 800px;
+  margin: 0 auto 40px auto;
+  font-size: 16px;
+  color: #555;
+}
+
+.report-list li {
+  margin-bottom: 15px;
+}
+
+.chart-placeholder {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-left: 4px solid #d51a1a;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.chart-placeholder canvas {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.sample-report321 {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #fff2e6;
+  border-left: 4px solid #d51a1a;
+  border-radius: 8px;
+}
+
+.sample-report321 h3 {
+  font-size: 22px;
+  color: #d51a1a;
+  margin-bottom: 15px;
+  text-align: center;
+}
+/* Section 10: Continuous Improvement & Further Enhancements */
+.container #future65 .section-title {
+  font-size: 30px;
+  color: #333;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.container #future65 .section-title i {
+  color: #d51a1a;
+  margin-right: 10px;
+}
+
+.container #future65 p {
+  font-size: 17px;
+  color: #555;
+  max-width: 900px;
+  margin: 0 auto 40px auto;
+  line-height: 1.7;
+  text-align: center;
+}
+
+.enhancements-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+  margin-bottom: 40px;
+}
+
+.enhancement-box {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  width: 240px;
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.enhancement-box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
+
+.enhancement-box i {
+  font-size: 28px;
+  color: #d51a1a;
+  margin-bottom: 15px;
+}
+
+.enhancement-box strong {
+  display: block;
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.enhancement-box p {
+  font-size: 14px;
+  color: #666;
+}
+
+.improvement-note654 {
+  font-size: 17px;
+  color: #555;
+  max-width: 800px;
+  margin: 0 auto 40px auto;
+  line-height: 1.7;
+  text-align: center;
+}
+
+.centered-btn654 {
+  text-align: center;
+}
+
+.learn-more-btn654 {
+  background-color: #d51a1a;
+  color: #fff;
+  border: none;
+  padding: 15px 30px;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+
+
+/* Section 2: Severity & Sensitivity Categorization */
+.section-severitySensitivity890 {
+  padding: 50px 20px;
+  border-bottom: 4px solid #d51a1a;
+}
+
+.section-title890 {
+  font-size: 30px;
+  color: #333;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.section-title890 i {
+  color: #d51a1a;
+  margin-right: 10px;
+}
+
+.section-severitySensitivity890 p {
+  font-size: 17px;
+  color: #555;
+  max-width: 900px;
+  margin: 0 auto 40px auto;
+  line-height: 1.7;
+  text-align: center;
+}
+
+.categorization-table890 {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.categorization-table890 table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.categorization-table890 th, .categorization-table890 td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: left;
+}
+
+.categorization-table890 th {
+  background-color: #f2f2f2;
+  color: #333;
+}
+
+.categorization-table890 tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.categorization-table890 tr:hover {
+  background-color: #e6f7ff;
+}
+
+.categorization-table890 th {
+  font-size: 16px;
+}
+
+.categorization-table890 td {
+  font-size: 15px;
+  color: #555;
+}
+/* Mobile-Only CSS for Severity & Sensitivity Categorization Table */
+@media only screen and (max-width: 768px) {
+  
+  /* 1. Enable Horizontal Scrolling for the Table */
+  .categorization-table890 {
+    overflow-x: auto;              /* Enables horizontal scrolling */
+    -webkit-overflow-scrolling: touch; /* Smooth scrolling on iOS devices */
+    padding-bottom: 10px;          /* Adds space below the table for better UX */
+  }
+
+  .categorization-table890 table {
+    width: 100%;                   /* Ensures the table takes full container width */
+    min-width: 600px;              /* Sets a minimum width to accommodate all columns */
+    border-collapse: collapse;     /* Maintains table borders */
+  }
+
+  /* 2. Prevent Content Wrapping in Table Cells */
+  .categorization-table890 th,
+  .categorization-table890 td {
+    white-space: nowrap;           /* Keeps content in a single line */
+    padding: 8px;                  /* Reduces padding for better fit on small screens */
+    font-size: 14px;               /* Adjusts font size for readability */
+  }
+
+  /* 3. Optional: Adjust Font Sizes for Better Readability */
+  .categorization-table890 th {
+    font-size: 14px;               /* Slightly smaller headers */
+  }
+
+  .categorization-table890 td {
+    font-size: 13px;               /* Slightly smaller cell text */
+  }
+}
+
+/* Section 3: Risk Assessment Results */
+.section-riskAssessment321 {
+  padding: 50px 20px;
+  border-bottom: 4px solid #d51a1a;
+}
+
+.section-title321 {
+  font-size: 30px;
+  color: #333;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.section-title321 i {
+  color: #d51a1a;
+  margin-right: 10px;
+}
+
+.section-riskAssessment321 p {
+  font-size: 17px;
+  color: #555;
+  max-width: 900px;
+  margin: 0 auto 40px auto;
+  line-height: 1.7;
+  text-align: center;
+}
+
+.risk-assessment-chart321 {
+  max-width: 800px;
+  margin: 0 auto 40px auto;
+}
+
+.risk-assessment-chart321 canvas {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.risk-details321 {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-left: 4px solid #d51a1a;
+  border-radius: 8px;
+}
+
+.risk-details321 h3 {
+  font-size: 22px;
+  color: #333;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.risk-details321 ul {
+  list-style: disc;
+  padding-left: 40px;
+  font-size: 16px;
+  color: #555;
+  line-height: 1.6;
+}
+
+.risk-details321 ul li {
+  margin-bottom: 15px;
+}
+
+/* Section 4: Pulse Assessment */
+.section-pulseAssessment654 {
+  padding: 50px 20px;
+  border-bottom: 4px solid #d51a1a;
+}
+
+.section-title654 {
+  font-size: 30px;
+  color: #333;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.section-title654 i {
+  color: #d51a1a;
+  margin-right: 10px;
+}
+
+.section-pulseAssessment654 p {
+  font-size: 17px;
+  color: #555;
+  max-width: 900px;
+  margin: 0 auto 40px auto;
+  line-height: 1.7;
+  text-align: center;
+}
+
+.pulse-assessment-chart654 {
+  max-width: 800px;
+  margin: 0 auto 40px auto;
+}
+
+.pulse-assessment-chart654 canvas {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.pulse-details654 {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-left: 4px solid #d51a1a;
+  border-radius: 8px;
+}
+
+.pulse-details654 h3 {
+  font-size: 22px;
+  color: #333;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+/* Section 5: Outdated Apache Server: Problem & Mitigation */
+.section-outdatedApache123 {
+  padding: 50px 20px;
+  border-bottom: 4px solid #32CD32;
+}
+
+.section-title123 {
+  font-size: 30px;
+  color: #333;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.section-title123 i {
+  color: #32CD32;
+  margin-right: 10px;
+}
+
+.section-outdatedApache123 .problem-mitigation123 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+}
+
+.problem-card123, .mitigation-card123 {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  width: 300px;
+  padding: 20px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.problem-card123:hover, .mitigation-card123:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
+
+.problem-card123 h3, .mitigation-card123 h3 {
+  font-size: 22px;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.problem-card123 p, .mitigation-card123 ul {
+  font-size: 16px;
+  color: #555;
+  line-height: 1.6;
+}
+
+.mitigation-card123 ul {
+  list-style: disc;
+  padding-left: 20px;
+}
+
+.mitigation-card123 ul li {
+  margin-bottom: 10px;
+}
+
+/* Section 6: Weak SSH Configurations: Problem & Mitigation */
+.section-weakSSH456 {
+  padding: 50px 20px;
+  border-bottom: 4px solid #32CD32;
+}
+
+.section-title456 {
+  font-size: 30px;
+  color: #333;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.section-title456 i {
+  color: #32CD32;
+  margin-right: 10px;
+}
+
+.section-weakSSH456 .problem-mitigation456 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+}
+
+.problem-card456, .mitigation-card456 {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  width: 300px;
+  padding: 20px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Section 7: SQL Injection Vulnerabilities: Problem & Mitigation */
+.section-sqlInjection789 {
+  padding: 50px 20px;
+  border-bottom: 4px solid #32CD32;
+}
+
+.section-title789 {
+  font-size: 30px;
+  color: #333;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.section-title789 i {
+  color: #32CD32;
+  margin-right: 10px;
+}
+
+.section-sqlInjection789 .problem-mitigation789 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+}
+
+.problem-card789, .mitigation-card789 {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  width: 300px;
+  padding: 20px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.problem-card789:hover, .mitigation-card789:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
+
+.problem-card789 h3, .mitigation-card789 h3 {
+  font-size: 22px;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.problem-card789 p, .mitigation-card789 ul {
+  font-size: 16px;
+  color: #555;
+  line-height: 1.6;
+}
+
+
+/* Section 8: Phishing Susceptibility: Problem & Mitigation */
+.section-phishingSusceptibility101 {
+  padding: 50px 20px;
+  border-bottom: 4px solid #32CD32;
+}
+
+.section-title101 {
+  font-size: 30px;
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.section-title101 i {
+  color: #32CD32;
+  margin-right: 10px;
+}
+
+.section-phishingSusceptibility101 .problem-mitigation101 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+}
+
+.problem-card101, .mitigation-card101 {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  width: 300px;
+  padding: 20px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.problem-card101:hover, .mitigation-card101:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
+
+.problem-card101 h3, .mitigation-card101 h3 {
+  font-size: 22px;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.problem-card101 p, .mitigation-card101 ul {
+  font-size: 16px;
+  color: #555;
+  line-height: 1.6;
+}
+
+.mitigation-card101 ul {
+  list-style: disc;
+  padding-left: 20px;
+}
+
+.mitigation-card101 ul li {
+  margin-bottom: 10px;
+}
+.mitigation-card789 ul {
+  list-style: disc;
+  padding-left: 20px;
+}
+
+
+/* Section 9: Best Practices for Threat Mitigation */
+.section-bestPractices112 {
+  padding: 50px 20px;
+  border-bottom: 4px solid #32CD32;
+}
+
+.section-title112 {
+  font-size: 30px;
+  color: #333;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.section-title112 i {
+  color: #32CD32;
+  margin-right: 10px;
+}
+
+.section-bestPractices112 p {
+  font-size: 17px;
+  color: #555;
+  max-width: 900px;
+  margin: 0 auto 40px auto;
+  line-height: 1.7;
+  text-align: center;
+}
+
+.best-practices-list112 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+}
+
+.practice-card112 {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  width: 250px;
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.practice-card112:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
+
+
+/* Section 10: Summary & Next Steps */
+.section-summaryNextSteps131 {
+  padding: 50px 20px;
+  border-bottom: 4px solid #32CD32;
+}
+
+.section-title131 {
+  font-size: 30px;
+  color: #333;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.section-title131 i {
+  color: #32CD32;
+  margin-right: 10px;
+}
+
+.section-summaryNextSteps131 p {
+  font-size: 17px;
+  color: #555;
+  max-width: 900px;
+  margin: 0 auto 30px auto;
+  line-height: 1.7;
+  text-align: center;
+}
+
+.summary-details131 {
+  max-width: 800px;
+  margin: 0 auto 40px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-left: 4px solid #32CD32;
+  border-radius: 8px;
+}
+
+.summary-details131 h3 {
+  font-size: 22px;
+  color: #333;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.summary-details131 ul {
+  list-style: disc;
+  padding-left: 40px;
+  font-size: 16px;
+  color: #555;
+  line-height: 1.6;
+}
+
+.summary-details131 ul li {
+  margin-bottom: 15px;
+}
+
+
+
+.summary-buttons131 {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.next-step-btn131 {
+  background-color: #d51a1a;
+  color: #fff;
+  border: none;
+  padding: 15px 30px;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+
+.next-step-btn131:hover {
+  background-color: #a50e0e;
+  transform: scale(1.05);
+}
+.practice-icon112 {
+  font-size: 28px;
+  color: #32CD32;
+  margin-bottom: 15px;
+}
+
+.practice-card112 h3 {
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.practice-card112 p {
+  font-size: 14px;
+  color: #666;
+}
+/* General Styles for Sections */
+.section-introAutomation101,
+.section-scriptingLanguages202,
+.section-practicalApplications303,
+.section-logAggregation404,
+.section-routineAuditing505,
+.section-monitoringProtocols606,
+.section-automationTools707,
+.section-benefitsBestPractices808,
+.section-summaryNextSteps909 {
+  padding: 50px 20px;
+  background-color: #f9f9f9; /* Light grey background for all sections */
+  color: #333333; /* Dark text for readability */
+  border-bottom: 2px solid #000000; /* Black border to separate sections */
+}
+.section-title101 {
+color: #000000;
+}
+/* Section Titles */
+
+
+.section-title303,
+.section-title404,
+.section-title505,
+.section-title606,
+.section-title707,
+.section-title808,
+.section-title909 {
+  font-size: 28px;
+  color: #d51a1a; /* Red color for titles */
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.section-title202 {}
+.section-title101 i,
+.section-title202 i,
+.section-title303 i,
+.section-title404 i,
+.section-title505 i,
+.section-title606 i,
+.section-title707 i,
+.section-title808 i,
+.section-title909 i {
+  color: #32CD32; /* Subtle green accent for icons */
+  margin-right: 10px;
+}
+
+/* Paragraphs within Sections */
+.section-introAutomation101 p,
+.section-scriptingLanguages202 p,
+.section-practicalApplications303 p,
+.section-logAggregation404 p,
+.section-routineAuditing505 p,
+.section-monitoringProtocols606 p,
+.section-automationTools707 p,
+.section-benefitsBestPractices808 p,
+.section-summaryNextSteps909 p {
+  font-size: 16px;
+  color: #555555;
+  max-width: 800px;
+  margin: 0 auto 30px auto;
+  line-height: 1.6;
+  text-align: center;
+}
+
+/* Cards and Content Containers */
+.intro-content101,
+.languages-list202,
+.applications-carousel303,
+.auditing-procedures505,
+.protocols-tools606,
+.tools-apis707,
+.benefits-bestPractices808 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+.process-icon101 {
+  color: #32CD32;
+}
+/* Card Styles */
+.intro-card101,
+.strategy-card202,
+.strategy-card606,
+.measure-card707,
+.practice-card909,
+.document-card808,
+.procedure-card505,
+.protocol-card606,
+.tool-card707,
+.benefit-card808,
+.carousel-slide303 {
+  background-color: #ffffff; /* White background for cards */
+  border: 1px solid #000000; /* Black border */
+  border-radius: 10px;
+  width: 250px;
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.intro-card101:hover,
+.strategy-card202:hover,
+.strategy-card606:hover,
+.measure-card707:hover,
+.practice-card909:hover,
+.document-card808:hover,
+.procedure-card505:hover,
+.protocol-card606:hover,
+.tool-card707:hover,
+.benefit-card808:hover,
+.carousel-slide303:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(50, 205, 50, 0.2); /* Subtle green shadow on hover */
+}
+
+/* Icon Styles within Cards */
+.intro-icon101,
+.strategy-icon202,
+.strategy-icon606,
+.measure-icon707,
+.practice-icon909,
+.tool-icon707,
+.benefit-icon808,
+.security-icon303,
+.protocol-icon606 {
+  font-size: 30px;
+  color: #333; /* Subtle green icons */
+  margin-bottom: 15px;
+}
+
+/* Card Titles */
+.intro-card101 h3,
+.strategy-card202 h3,
+.strategy-card606 h3,
+.measure-card707 h3,
+.practice-card909 h3,
+.document-card808 h3,
+.procedure-card505 h3,
+.protocol-card606 h3,
+.tool-card707 h3,
+.benefit-card808 h3,
+.carousel-slide303 h3 {
+  font-size: 20px;
+  color: #32CD32; /* Red titles within cards */
+  margin-bottom: 10px;
+}
+
+/* Card Paragraphs */
+.intro-card101 p,
+.strategy-card202 p,
+.strategy-card606 p,
+.measure-card707 p,
+.practice-card909 p,
+.document-card808 p,
+.procedure-card505 p,
+.protocol-card606 p,
+.tool-card707 p,
+.benefit-card808 p,
+.carousel-slide303 p {
+  font-size: 14px;
+  color: #555555;
+}
+
+/* Lists within Sections */
+.languages-list202 ul,
+.procedure-card505 ul {
+  list-style: none;
+  padding: 0;
+  text-align: left;
+}
+
+.languages-list202 li,
+.procedure-card505 ul li {
+  background-color: #e6ffe6; /* Light green background for list items */
+  border: 1px solid #32CD32; /* Subtle green border */
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.languages-list202 li i,
+.procedure-card505 ul li i {
+  color: #d51a1a; /* Red check icons */
+  margin-right: 10px;
+}
+
+.languages-list202 li strong,
+.procedure-card505 ul li strong {
+  color: #333333; /* Dark text */
+}
+
+/* Tables within Sections */
+.aggregation-table404 {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  border-collapse: collapse;
+  background-color: #ffffff; /* White background for tables */
+}
+
+.aggregation-table404 th,
+.aggregation-table404 td {
+  border: 1px solid #000000; /* Black borders */
+  padding: 12px;
+  text-align: left;
+}
+
+.aggregation-table404 th {
+  background-color: #d51a1a; /* Red header */
+  color: #ffffff; /* White text */
+}
+
+.aggregation-table404 tbody tr:nth-child(even) {
+  background-color: #f2f2f2; /* Light grey for even rows */
+}
+
+.aggregation-table404 tbody tr:hover {
+  background-color: #32CD32; /* Green background on hover */
+  color: #ffffff;
+}
+
+.aggregation-table404 th,
+.aggregation-table404 td {
+  font-size: 14px;
+}
+
+/* Carousel Styling */
+.applications-carousel303 {
+  display: flex;
+  overflow-x: auto;
+  gap: 20px;
+  padding-bottom: 10px;
+}
+
+.carousel-slide303 {
+  flex: 0 0 250px;
+  background-color: #ffffff;
+  border: 1px solid #000000; /* Black border */
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.carousel-slide303:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(50, 205, 50, 0.2); /* Subtle green shadow on hover */
+}
+
+/* Embedded Documents Styling */
+.document-content808,
+.document-content404 {
+  max-height: 400px;
+  overflow-y: auto;
+  text-align: left;
+  padding: 10px;
+  border: 1px solid #000000; /* Black border */
+  border-radius: 8px;
+  background-color: #f0fff0; /* Light greenish background */
+}
+
+/* Charts Styling */
+.backup-chart606,
+.data-protection-chart707 {
+  max-width: 800px;
+  margin: 40px auto 0 auto;
+}
+
+.backup-chart606 canvas,
+.data-protection-chart707 canvas {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+/* Summary Section */
+.summary-details909 {
+  max-width: 800px;
+  margin: 0 auto 40px auto;
+  padding: 20px;
+  background-color: #ffffff; /* White background */
+  border-left: 4px solid #32CD32; /* Subtle green border */
+  border-radius: 8px;
+}
+
+.summary-details909 h3 {
+  font-size: 22px;
+  color: #32CD32; /* Green title */
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.summary-details909 ul {
+  list-style: disc;
+  padding-left: 40px;
+  font-size: 16px;
+  color: #555555;
+  line-height: 1.6;
+}
+
+.summary-details909 ul li {
+  margin-bottom: 10px;
+}
+
+/* Buttons */
+.next-step-btn909,
+.next-step-btn808,
+.next-step-btn606,
+.next-step-btn707,
+.next-step-btn505,
+.next-step-btn404,
+.next-step-btn303,
+.next-step-btn202,
+.next-step-btn101 {
+  background-color: #d51a1a; /* Red background */
+  color: #ffffff; /* White text */
+  border: none;
+  padding: 15px 30px;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.next-step-btn909:hover,
+.next-step-btn808:hover,
+.next-step-btn606:hover,
+.next-step-btn707:hover,
+.next-step-btn505:hover,
+.next-step-btn404:hover,
+.next-step-btn303:hover,
+.next-step-btn202:hover,
+.next-step-btn101:hover {
+  background-color: #a50e0e; /* Darker red on hover */
+  transform: scale(1.05);
+}
+
+/* Responsive Design Adjustments */
+@media (max-width: 768px) {
+  .intro-content101,
+  .languages-list202,
+  .applications-carousel303,
+  .auditing-procedures505,
+  .protocols-tools606,
+  .tools-apis707,
+  .benefits-bestPractices808 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .intro-card101,
+  .strategy-card202,
+  .strategy-card606,
+  .measure-card707,
+  .practice-card909,
+  .document-card808,
+  .benefit-card808,
+  .carousel-slide303 {
+    width: 100%;
+    max-width: 350px;
+  }
+
+  .aggregation-table404 {
+    width: 100%;
+  }
+
+  .applications-carousel303 {
+    overflow-x: scroll;
+  }
+}
+
+/* Additional Styling */
+.red-highlight {
+  color: #d51a1a;
+  font-weight: bold;
+}
+
+.green-highlight {
+  color: #32CD32;
+  font-weight: bold;
+}
+
+.black-text {
+  color: #000000;
+}
+
+/* Scrollbar Styling for Embedded Documents */
+.document-content808,
+.document-content404 {
+  scrollbar-width: thin;
+  scrollbar-color: #32CD32 #ffffff;
+}
+
+.document-content808::-webkit-scrollbar,
+.document-content404::-webkit-scrollbar {
+  width: 8px;
+}
+
+.document-content808::-webkit-scrollbar-track,
+.document-content404::-webkit-scrollbar-track {
+  background: #ffffff;
+}
+
+
+.document-content808::-webkit-scrollbar-thumb,
+.document-content404::-webkit-scrollbar-thumb {
+  background-color: #32CD32;
+  border-radius: 10px;
+  border: 2px solid #ffffff;
+}
+
+.mitigation-card789 ul li {
+  margin-bottom: 10px;
+}
+/* ===========================================
+   Styles for Governance, Risk & Compliance (GRC) Sections
+   =========================================== */
+
+/* Section Containers */
+.section-introGRC101,
+.section-hipaaCompliance202,
+.section-pciDssCompliance303,
+.section-riskManagement404,
+.section-dataCIA505,
+.section-grcSoftware606,
+.section-monitoringReporting707,
+.section-policyImplementation808,
+.section-summaryNextSteps909 {
+  padding: 50px 20px;
+  background-color: #f9f9f9; /* Light grey background for all sections */
+  color: #333333; /* Dark text for readability */
+  border-bottom: 2px solid #000000; /* Black border to separate sections */
+}
+
+
+
+/* ============================================
+             MOBILE-ONLY STYLES
+             ============================================ */
+             @media only screen and (max-width: 768px) {
+  
+              /* 1. Centering Cards in Recovery Strategies Section */
+              .recovery-strategies202 {
+                display: flex;                   /* Use Flexbox layout */
+                flex-direction: column;          /* Stack cards vertically */
+                align-items: center;             /* Center cards horizontally */
+                gap: 20px;                       /* Space between cards */
+                padding: 0 10px;                 /* Horizontal padding to prevent edge touching */
+              }
+            
+              /* 2. Centering Cards in Backup & Redundancy Strategies Section */
+              .backup-strategies606 {
+                display: flex;                   /* Use Flexbox layout */
+                flex-direction: column;          /* Stack cards vertically */
+                align-items: center;             /* Center cards horizontally */
+                gap: 20px;                       /* Space between cards */
+                padding: 0 10px;                 /* Horizontal padding to prevent edge touching */
+              }
+            
+              /* 3. Adjusting Strategy Cards Width */
+              .strategy-card202,
+              .strategy-card606 {
+                width: 100%;                     /* Allow cards to take full container width */
+                max-width: 350px;                /* Limit maximum width for better readability */
+                box-sizing: border-box;          /* Include padding and borders in width */
+                margin: 0 auto;                  /* Center cards within the container */
+              }
+            
+              /* 4. Making Canvas Elements Responsive */
+              /* Ensures that charts fit within the screen width */
+              .risk-assessment-chart321,
+              .pulse-assessment-chart654,
+              .backup-chart606,
+              .data-protection-chart707,
+              #riskAssessmentChart321,
+              #pulseAssessmentChart654,
+              #backupRedundancyChart606,
+              #dataProtectionChart707 {
+                width: 100% !important;          /* Force canvas to take full width */
+                height: auto !important;         /* Maintain aspect ratio */
+              }
+            
+              /* 5. Optional: Adjust Section Padding for Better Mobile Layout */
+              .section-backupRedundancy606,
+              .section-summaryNextSteps131 {
+                padding: 30px 15px;              /* Reduce padding on smaller screens */
+              }
+            
+              /* 6. Optional: Adjust Icon Sizes for Better Mobile Visibility */
+              .strategy-icon202,
+              .strategy-icon606,
+              .strategy-icon707,
+              .practice-icon909,
+              .tool-icon707,
+              .benefit-icon808,
+              .security-icon303,
+              .protocol-icon606 {
+                font-size: 24px;                  /* Reduce icon size */
+                margin-bottom: 10px;              /* Adjust spacing below icons */
+              }
+            
+              /* 7. Ensure Images and Other Media are Responsive */
+              img.flowchart567 {
+                max-width: 100%;                   /* Make image fit within container */
+                height: auto;                      /* Maintain aspect ratio */
+              }
+            
+              /* 8. Additional Adjustments for Better Readability */
+              .strategy-card202 h3,
+              .strategy-card606 h3 {
+                font-size: 18px;                    /* Slightly smaller card titles */
+                margin-bottom: 8px;                 /* Adjust spacing below titles */
+              }
+            
+              .strategy-card202 p,
+              .strategy-card606 p {
+                font-size: 14px;                    /* Slightly smaller card text */
+              }
+            
+              /* 9. Optional: Ensure No Horizontal Overflow */
+              body {
+                overflow-x: hidden;                 /* Prevent horizontal scroll */
+              }
+            }
+
+/* ============================================
+            MOBILE-ONLY STYLES
+============================================ */
+@media only screen and (max-width: 768px) {
+
+  /* 1. Centering and Resizing Cards in Routine Auditing Procedures Section */
+  .routineAuditing505 .procedure-card505 {
+    width: 30% !important;                      /* Allow card to take 90% of container width */
+    max-width: 50px !important;                /* Limit maximum width for better readability */
+    box-sizing: border-box !important;          /* Include padding and borders in width */
+    margin: 0 auto !important;                  /* Center card horizontally */
+    padding: 10px !important;                   /* Adjust padding for better spacing */
+  }
+
+  /* 2. Centering and Resizing Cards in Monitoring Protocols and Tools Section */
+  .monitoringProtocols606 .protocol-card606 {
+    width: 30% !important;                      /* Allow card to take 90% of container width */
+    max-width: 50px !important;                /* Limit maximum width for better readability */
+    box-sizing: border-box !important;          /* Include padding and borders in width */
+    margin: 0 auto !important;                  /* Center card horizontally */
+    padding: 10px !important;                   /* Adjust padding for better spacing */
+  }
+
+  /* 3. Centering and Resizing Cards in Automation Tools and APIs Section */
+  .automationTools707 .tool-card707 {
+    width: 30% !important;                      /* Allow card to take 90% of container width */
+    max-width: 50px !important;                /* Limit maximum width for better readability */
+    box-sizing: border-box !important;          /* Include padding and borders in width */
+    margin: 0 auto !important;                  /* Center card horizontally */
+    padding: 10px !important;                   /* Adjust padding for better spacing */
+  }
+
+  /* 4. Stack Cards Vertically and Center Within Parent Containers */
+  .routineAuditing505 .auditing-procedures505,
+  .monitoringProtocols606 .protocols-tools606,
+  .automationTools707 .tools-apis707 {
+    display: flex !important;                   /* Enable Flexbox layout */
+    flex-direction: column !important;          /* Stack cards vertically */
+    align-items: center !important;             /* Center cards horizontally */
+    gap: 15px !important;                       /* Space between cards */
+    padding: 0 10px !important;                 /* Horizontal padding to prevent edge touching */
+  }
+
+  /* 5. Responsive Typography for Section Titles */
+  .section-title505,
+  .section-title606,
+  .section-title707 {
+    font-size: 22px !important;                 /* Slightly smaller titles for mobile */
+    margin-bottom: 10px !important;             /* Adjust spacing below titles */
+  }
+
+  /* 6. Responsive Typography for Card Titles */
+  .routineAuditing505 .procedure-card505 h3,
+  .monitoringProtocols606 .protocol-card606 h3,
+  .automationTools707 .tool-card707 h3 {
+    font-size: 16px !important;                  /* Slightly smaller card titles */
+    margin-bottom: 6px !important;               /* Adjust spacing below titles */
+  }
+
+  /* 7. Responsive Typography for Card Paragraphs */
+  .routineAuditing505 .procedure-card505 p,
+  .monitoringProtocols606 .protocol-card606 p,
+  .automationTools707 .tool-card707 p {
+    font-size: 12px !important;                  /* Slightly smaller card text */
+    text-align: left !important;                 /* Align text to the left for better readability */
+  }
+
+  /* 8. Adjust Icon Sizes within Cards for Better Visibility */
+  .routineAuditing505 .procedure-card505 i,
+  .monitoringProtocols606 .protocol-card606 i,
+  .automationTools707 .tool-card707 i {
+    font-size: 20px !important;                  /* Reduce icon size */
+    margin-bottom: 8px !important;               /* Adjust spacing below icons */
+  }
+
+  /* 9. Ensure Buttons are Responsive and Centered */
+  .centered-btn629 {
+    display: flex !important;
+    justify-content: center !important;
+    padding: 0 10px !important;                   /* Horizontal padding */
+  }
+
+  .learn-more-btn654 {
+    width: 90% !important;                        /* Allow button to take 90% of container width */
+    max-width: 250px !important;                  /* Limit maximum width for better readability */
+    padding: 10px 15px !important;                /* Adjust padding for better touch targets */
+    font-size: 14px !important;                   /* Maintain readable font size */
+    border-radius: 15px !important;               /* Adjust border radius for better aesthetics */
+  }
+
+  /* 10. Prevent Horizontal Overflow */
+  body {
+    overflow-x: hidden !important;                 /* Prevent horizontal scroll */
+  }
+
+}
+            
+/* Section Titles */
+
+.section-title202,
+.section-title303,
+.section-title404,
+.section-title505,
+.section-title606,
+.section-title707,
+.section-title808,
+.section-title909 {
+  font-size: 28px;
+  color: #d51a1a; /* Red color for titles */
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.section-title101 i,
+.section-title202 i,
+.section-title303 i,
+.section-title404 i,
+.section-title505 i,
+.section-title606 i,
+.section-title707 i,
+.section-title808 i,
+.section-title909 i {
+  color: #32CD32; /* Subtle green accent for icons */
+  margin-right: 10px;
+}
+
+/* Paragraphs within Sections */
+.section-introGRC101 p,
+.section-hipaaCompliance202 p,
+.section-pciDssCompliance303 p,
+.section-riskManagement404 p,
+.section-dataCIA505 p,
+.section-grcSoftware606 p,
+.section-monitoringReporting707 p,
+.section-policyImplementation808 p,
+.section-summaryNextSteps909 p {
+  font-size: 16px;
+  color: #555555;
+  max-width: 800px;
+  margin: 0 auto 30px auto;
+  line-height: 1.6;
+  text-align: center;
+}
+
+/* Content Containers (Flex Layout) */
+.intro-content101,
+.hipaa-details202,
+.pci-details303,
+.risk-details404,
+.cia-details505,
+.grc-tools606,
+.monitoring-reporting707,
+.policy-details808 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+/* Card Styles */
+.intro-card101,
+.hipaa-card202,
+.pci-card303,
+.risk-card404,
+.cia-card505,
+.tool-card606,
+.monitoring-card707,
+.policy-card808,
+.benefit-card808,
+.carousel-slide303 {
+  background-color: #ffffff; /* White background for cards */
+  border: 1px solid #000000; /* Black border */
+  border-radius: 10px;
+  width: 250px;
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.intro-card101:hover,
+.hipaa-card202:hover,
+.pci-card303:hover,
+.risk-card404:hover,
+.cia-card505:hover,
+.tool-card606:hover,
+.monitoring-card707:hover,
+.policy-card808:hover,
+.benefit-card808:hover,
+.carousel-slide303:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(50, 205, 50, 0.2); /* Subtle green shadow on hover */
+}
+
+/* Icon Styles within Cards */
+.intro-icon101,
+.hipaa-icon202,
+.pci-icon303,
+.risk-icon404,
+.cia-icon505,
+.tool-icon606,
+.monitoring-icon707,
+.policy-icon808,
+.benefit-icon808,
+.security-icon303,
+.protocol-icon606 {
+  font-size: 30px;
+  color: #32CD32; /* Subtle green icons */
+  margin-bottom: 15px;
+}
+
+/* Card Titles */
+.intro-card101 h3,
+.hipaa-card202 h3,
+.pci-card303 h3,
+.risk-card404 h3,
+.cia-card505 h3,
+.tool-card606 h3,
+.monitoring-card707 h3,
+.policy-card808 h3,
+.benefit-card808 h3,
+.carousel-slide303 h3 {
+  font-size: 20px;
+  color: #d51a1a; /* Red titles within cards */
+  margin-bottom: 10px;
+}
+
+/* Card Paragraphs */
+.intro-card101 p,
+.hipaa-card202 p,
+.pci-card303 p,
+.risk-card404 p,
+.cia-card505 p,
+.tool-card606 p,
+.monitoring-card707 p,
+.policy-card808 p,
+.benefit-card808 p,
+.carousel-slide303 p {
+  font-size: 14px;
+  color: #555555;
+}
+
+/* Lists within Sections */
+.hipaa-details202 ul,
+.pci-details303 ul,
+.risk-details404 ul,
+.cia-details505 ul,
+.policy-details808 ul {
+  list-style: none;
+  padding: 0;
+  text-align: left;
+}
+
+.hipaa-details202 li,
+.pci-details303 li,
+.risk-details404 li,
+.cia-details505 li,
+.policy-details808 li {
+  background-color: #ffffff; /* White background for list items */
+  border: 1px solid #32CD32; /* Subtle green border */
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.hipaa-details202 li i,
+.pci-details303 li i,
+.risk-details404 li i,
+.cia-details505 li i,
+.policy-details808 li i {
+  color: #d51a1a; /* Red check icons */
+  margin-right: 10px;
+}
+
+.hipaa-details202 li strong,
+.pci-details303 li strong,
+.risk-details404 li strong,
+.cia-details505 li strong,
+.policy-details808 li strong {
+  color: #333333; /* Dark text */
+}
+
+/* Tables within Sections */
+.aggregation-table404 {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  border-collapse: collapse;
+  background-color: #ffffff; /* White background for tables */
+}
+
+.aggregation-table404 th,
+.aggregation-table404 td {
+  border: 1px solid #000000; /* Black borders */
+  padding: 12px;
+  text-align: left;
+}
+
+.aggregation-table404 th {
+  background-color: #d51a1a; /* Red header */
+  color: #ffffff; /* White text */
+}
+
+.aggregation-table404 tbody tr:nth-child(even) {
+  background-color: #f2f2f2; /* Light grey for even rows */
+}
+
+.aggregation-table404 tbody tr:hover {
+  background-color: #32CD32; /* Green background on hover */
+  color: #ffffff;
+}
+
+.aggregation-table404 th,
+.aggregation-table404 td {
+  font-size: 14px;
+}
+
+/* Carousel Styling */
+.applications-carousel303 {
+  display: flex;
+  overflow-x: auto;
+  gap: 20px;
+  padding-bottom: 10px;
+}
+
+.carousel-slide303 {
+  flex: 0 0 250px;
+  background-color: #ffffff;
+  border: 1px solid #000000; /* Black border */
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.carousel-slide303:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(50, 205, 50, 0.2); /* Subtle green shadow on hover */
+}
+/* ============================================
+                MOBILE-ONLY STYLES
+============================================ */
+@media only screen and (max-width: 768px) {
+  
+  /* 1. Enable Horizontal Scroll for the Table Container */
+  .log-aggregation404 {
+    overflow-x: auto;                 /* Allows horizontal scrolling if content overflows */
+    -webkit-overflow-scrolling: touch; /* Smooth scrolling on iOS devices */
+  }
+
+  /* 2. Make the Table Wider Than the Container to Trigger Scroll */
+  .aggregation-table404 {
+    width: 100%;                      /* Ensure table takes full width of the container */
+    min-width: 600px;                 /* Set a minimum width to enable horizontal scroll */
+    border-collapse: collapse;        /* Maintain existing border styles */
+  }
+
+  /* 3. Reduce Padding and Font Size for Better Fit */
+  .aggregation-table404 th,
+  .aggregation-table404 td {
+    padding: 8px;                     /* Reduce padding for smaller screens */
+    font-size: 12px;                  /* Decrease font size for readability */
+    white-space: nowrap;              /* Prevent text from wrapping */
+  }
+}
+/* Embedded Documents Styling */
+.document-content808,
+.document-content404 {
+  max-height: 400px;
+  overflow-y: auto;
+  text-align: left;
+  padding: 10px;
+  border: 1px solid #000000; /* Black border */
+  border-radius: 8px;
+  background-color: #f0fff0; /* Light greenish background */
+}
+
+/* Charts Styling */
+.backup-chart606,
+.data-protection-chart707 {
+  max-width: 800px;
+  margin: 40px auto 0 auto;
+}
+
+.backup-chart606 canvas,
+.data-protection-chart707 canvas {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+/* Summary Section */
+.summary-details909 {
+  max-width: 800px;
+  margin: 0 auto 40px auto;
+  padding: 20px;
+  background-color: #ffffff; /* White background */
+  border-left: 4px solid #32CD32; /* Subtle green border */
+  border-radius: 8px;
+}
+
+.summary-details909 h3 {
+  font-size: 22px;
+  color: #32CD32; /* Green title */
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.summary-details909 ul {
+  list-style: disc;
+  padding-left: 40px;
+  font-size: 16px;
+  color: #555555;
+  line-height: 1.6;
+}
+
+.summary-details909 ul li {
+  margin-bottom: 10px;
+}
+
+/* Buttons */
+.back-home-btn909,
+.back-home-btn808,
+.back-home-btn606,
+.back-home-btn707,
+.back-home-btn505,
+.back-home-btn404,
+.back-home-btn303,
+.back-home-btn202,
+.back-home-btn101 {
+  background-color: #d3d3d3; /* Light gray background */
+  color: #333333; /* Dark text */
+  border: none;
+  padding: 15px 30px;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.back-home-btn909:hover,
+.back-home-btn808:hover,
+.back-home-btn606:hover,
+.back-home-btn707:hover,
+.back-home-btn505:hover,
+.back-home-btn404:hover,
+.back-home-btn303:hover,
+.back-home-btn202:hover,
+.back-home-btn101:hover {
+  background-color: #a9a9a9; /* Darker gray on hover */
+  transform: scale(1.05);
+}
+
+/* Responsive Design Adjustments */
+@media (max-width: 768px) {
+  .intro-content101,
+  .hipaa-details202,
+  .pci-details303,
+  .risk-details404,
+  .cia-details505,
+  .grc-tools606,
+  .monitoring-reporting707,
+  .policy-details808 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .intro-card101,
+  .hipaa-card202,
+  .pci-card303,
+  .risk-card404,
+  .cia-card505,
+  .tool-card606,
+  .monitoring-card707,
+  .policy-card808,
+  .benefit-card808,
+  .carousel-slide303 {
+    width: 100%;
+    max-width: 350px;
+  }
+
+  .aggregation-table404 {
+    width: 100%;
+  }
+
+  .applications-carousel303 {
+    overflow-x: scroll;
+  }
+}
+
+/* Additional Styling */
+.red-highlight {
+  color: #d51a1a;
+  font-weight: bold;
+}
+
+.green-highlight {
+  color: #32CD32;
+  font-weight: bold;
+}
+
+.black-text {
+  color: #000000;
+}
+
+/* Scrollbar Styling for Embedded Documents */
+.document-content808,
+.document-content404 {
+  scrollbar-width: thin;
+  scrollbar-color: #32CD32 #ffffff;
+}
+
+.document-content808::-webkit-scrollbar,
+.document-content404::-webkit-scrollbar {
+  width: 8px;
+}
+
+.document-content808::-webkit-scrollbar-track,
+.document-content404::-webkit-scrollbar-track {
+  background: #ffffff;
+}
+
+.document-content808::-webkit-scrollbar-thumb,
+.document-content404::-webkit-scrollbar-thumb {
+  background-color: #32CD32;
+  border-radius: 10px;
+  border: 2px solid #ffffff;
+}
+.problem-card456:hover, .mitigation-card456:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
+
+.problem-card456 h3, .mitigation-card456 h3 {
+  font-size: 22px;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.problem-card456 p, .mitigation-card456 ul {
+  font-size: 16px;
+  color: #555;
+  line-height: 1.6;
+}
+
+.mitigation-card456 ul {
+  list-style: disc;
+  padding-left: 20px;
+}
+
+.mitigation-card456 ul li {
+  margin-bottom: 10px;
+}
+.pulse-details654 ul {
+  list-style: disc;
+  padding-left: 40px;
+  font-size: 16px;
+  color: #555;
+  line-height: 1.6;
+}
+
+.pulse-details654 ul li {
+  margin-bottom: 15px;
+}
+
+.learn-more-btn654:hover {
+  background-color: #a50e0e;
+  transform: scale(1.05);
+}
+.sample-report321 p {
+  font-size: 16px;
+  color: #555;
+  line-height: 1.6;
+}
+.persistence-list li::before {
+  content: "✔️";
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.step-item321 ul li {
+  margin-bottom: 8px;
+}
+
+.lateral-movement-chart321 {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.lateral-movement-chart321 canvas {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.method-card321 {
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  width: 220px;
+  padding: 20px;
+  text-align: center;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.method-card321:hover {
+  background-color: #e6ffe6;
+  transform: translateY(-5px);
+}
+
+.method-icon321 {
+  font-size: 28px;
+  color: #32CD32;
+  margin-bottom: 15px;
+}
+
+.method-card321 h3 {
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.method-card321 p {
+  font-size: 14px;
+  color: #666;
+}
+
+
+
+.goal-item789:hover {
+  background-color: #f5f5f5;
+  transform: translateY(-5px);
+}
+
+.goal-icon789 {
+  font-size: 25px;
+  color: #d51a1a;
+  margin-bottom: 15px;
+}
+
+.goal-item789 h4 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.goal-item789 p {
+  font-size: 14px;
+  color: #666;
+}
+
+
+  .section-title123 i {
+    color: #d51a1a;
+    margin-right: 10px;
+  }
+  
+/* Section 6: Lateral Movement & Pivoting */
+.section-lateralMovement321 {
+  background-color: #ffffff;
+  padding: 50px 20px;
+  border-top: 4px solid #d51a1a;
+}
+
+.section-title321 {
+  font-size: 28px;
+  color: #333;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.section-title321 i {
+  color: #d51a1a;
+  margin-right: 10px;
+}
+/* ============================================
+            MOBILE-ONLY STYLES
+============================================ */
+@media only screen and (max-width: 768px) {
+  
+  /* 1. Centering and Stacking Cards in All Sections */
+  .intro-content101,
+  .hipaa-details202,
+  .pci-details303,
+  .risk-details404,
+  .cia-details505,
+  .grc-tools606,
+  .monitoring-reporting707,
+  .policy-details808,
+  .recovery-strategies202,
+  .backup-strategies606 {
+    flex-direction: column;          /* Stack cards vertically */
+    align-items: center;             /* Center cards horizontally */
+    gap: 20px;                       /* Space between cards */
+    padding: 0 10px;                 /* Horizontal padding to prevent edge touching */
+  }
+
+  /* 2. Adjusting Card Widths for Better Fit */
+  .intro-card101,
+  .hipaa-card202,
+  .pci-card303,
+  .risk-card404,
+  .cia-card505,
+  .tool-card606,
+  .monitoring-card707,
+  .policy-card808,
+  .benefit-card808,
+  .carousel-slide303,
+  .strategy-card202,
+  .strategy-card606 {
+    width: 100%;                     /* Allow cards to take full container width */
+    max-width: 350px;                /* Limit maximum width for better readability */
+    box-sizing: border-box;          /* Include padding and borders in width */
+    margin: 0 auto;                  /* Center cards within the container */
+  }
+
+  /* 3. Ensuring Responsive Canvas Elements */
+  .risk-assessment-chart321,
+  .pulse-assessment-chart654,
+  .backup-chart606,
+  .data-protection-chart707,
+  #riskAssessmentChart321,
+  #pulseAssessmentChart654,
+  #backupRedundancyChart606,
+  #dataProtectionChart707 {
+    width: 100% !important;          /* Force canvas to take full width */
+    height: auto !important;         /* Maintain aspect ratio */
+  }
+
+  /* 4. Adjust Section Padding for Mobile Devices */
+  .section-backupRedundancy606,
+  .section-summaryNextSteps131,
+  .section-introGRC101,
+  .section-hipaaCompliance202,
+  .section-pciDssCompliance303,
+  .section-riskManagement404,
+  .section-dataCIA505,
+  .section-grcSoftware606,
+  .section-monitoringReporting707,
+  .section-policyImplementation808,
+  .section-summaryNextSteps909 {
+    padding: 30px 15px;              /* Reduce padding on smaller screens */
+  }
+
+  /* 5. Adjust Icon Sizes for Better Visibility */
+  .intro-icon101,
+  .hipaa-icon202,
+  .pci-icon303,
+  .risk-icon404,
+  .cia-icon505,
+  .tool-icon606,
+  .monitoring-icon707,
+  .policy-icon808,
+  .benefit-icon808,
+  .security-icon303,
+  .protocol-icon606,
+  .strategy-icon202,
+  .strategy-icon606,
+  .practice-icon909,
+  .tool-icon707,
+  .benefit-icon808 {
+    font-size: 24px;                  /* Reduce icon size */
+    margin-bottom: 10px;              /* Adjust spacing below icons */
+  }
+
+  /* 6. Ensure Images and Other Media are Responsive */
+  img.flowchart567 {
+    max-width: 100%;                   /* Make image fit within container */
+    height: auto;                      /* Maintain aspect ratio */
+  }
+
+  /* 7. Adjust Typography for Better Readability */
+  .section-title101,
+  .section-title202,
+  .section-title303,
+  .section-title404,
+  .section-title505,
+  .section-title606,
+  .section-title707,
+  .section-title808,
+  .section-title909 {
+    font-size: 24px;                   /* Slightly smaller titles */
+    margin-bottom: 15px;               /* Adjust spacing below titles */
+  }
+
+  .intro-card101 h3,
+  .hipaa-card202 h3,
+  .pci-card303 h3,
+  .risk-card404 h3,
+  .cia-card505 h3,
+  .tool-card606 h3,
+  .monitoring-card707 h3,
+  .policy-card808 h3,
+  .benefit-card808 h3,
+  .carousel-slide303 h3 {
+    font-size: 18px;                   /* Slightly smaller card titles */
+    margin-bottom: 8px;                /* Adjust spacing below titles */
+  }
+
+  .intro-card101 p,
+  .hipaa-card202 p,
+  .pci-card303 p,
+  .risk-card404 p,
+  .cia-card505 p,
+  .tool-card606 p,
+  .monitoring-card707 p,
+  .policy-card808 p,
+  .benefit-card808 p,
+  .carousel-slide303 p,
+  .strategy-card202 p,
+  .strategy-card606 p {
+    font-size: 14px;                   /* Slightly smaller card text */
+  }
+
+  /* 8. Optional: Ensure No Horizontal Overflow */
+  body {
+    overflow-x: hidden;                 /* Prevent horizontal scroll */
+  }
+
+}
+.section-lateralMovement321 p {
+  font-size: 16px;
+  color: #555;
+  max-width: 900px;
+  margin: 0 auto 40px auto;
+  line-height: 1.6;
+  text-align: center;
+}
+
+.lateral-movement-step321 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+}
+
+.step-item321 {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  width: 220px;
+  padding: 20px;
+  text-align: center;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.step-item321:hover {
+  background-color: #e6ffe6;
+  transform: translateY(-5px);
+}
+
+.step-item321 h3 {
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.step-item321 i {
+  color: #d51a1a;
+  margin-bottom: 10px;
+}
+
+.step-item321 p {
+  font-size: 14px;
+  color: #666;
+}
+  
+
+  html {
+    overflow-x: hidden;
+  }
+  /* Ensure Body and Background Wrapper Allow Sticky Behavior */
+  body, .background-wrapper {
+      height: auto; /* Remove any height restriction */
+      overflow: visible; /* Ensure scrolling doesn't interfere */
+    }
+    
+  html {
+      scroll-behavior: smooth;
+    }
+  
+  .background-wrapper {
+    position: static; /* Context for sticky elements */
+    height: auto; /* Remove height restriction */
+    overflow: visible; /* Ensure sticky behavior works */
+  }
+  /* Ensure Parent Containers Do Not Block Sticky Behavior */
+  body, html {
+    height: 100%; /* Ensure the body takes up full height */
+    overflow-x: hidden;
+  }
+  
+  .background-wrapper::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('images/bgimage2\ copy.png') no-repeat center center; /* Background image */
+    background-size: cover; /* Ensure the full image is visible */
+    filter: brightness(1.1) blur(9px); /* Correct brightness and blur values */
+    z-index: -1; /* Push behind all content */
+  }
+  
+
+/* Default Notification Bar */
+.notification-bar {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+  font-size: 16px; /* Default font size for larger screens */
+  position: sticky;
+  top: 0;
+  z-index: 1000; /* Ensure it stays on top */
+}
+
+/* Smaller text for mobile devices */
+@media (max-width: 768px) {
+  .notification-bar {
+      font-size: 14px; /* Smaller font size for mobile screens */
+  }
+}
+  /* Sticky Header */
+  .sticky-header {
+    position: sticky; /* Keep it fixed while scrolling */
+    top: 0; /* Stay at the top of the page */
+    backdrop-filter: blur(10px); /* Add a blur effect */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.7); /* Semi-transparent background */
+    padding: 20px 30px; /* Space inside the header */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Add a shadow for visibility */
+    z-index: 10000; /* Ensure it stays above other elements */
+  }
+  
+  
+  /* Logo */
+  .logo {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+  }
+  
+
+  /* Logo Styling for Mobile */
+  @media screen and (max-width: 768px) {
+      .logo {
+        font-size: 16px; /* Reduce font size for smaller devices */
+      }
+    
+    }
+
+/* Custom FA Shield Icon for Logo */
+.fa-shield-custom {
+    font-size: 50px; /* Match the desired size */
+    color: #d51a1a; /* Red fill color */
+    background-color: transparent; /* Transparent background */
+    border: 2px solid #d51a1a; /* Red outline */
+    border-radius: 50%; /* Circular outline */
+    padding: 10px; /* Add space inside the border */
+    box-sizing: content-box; /* Ensure padding doesn't affect size */
+    margin-right: 15px; /* Space between the icon and text */
+  }
+  
+  /* Adjust for smaller screens */
+  @media screen and (max-width: 768px) {
+    .fa-shield-custom {
+      font-size: 35px; /* Adjust size for mobile */
+      padding: 5px; /* Adjust padding */
+      margin-right: 10px; /* Adjust spacing */
+    }
+  }
+    
+  /* Hamburger Menu */
+  .hamburger-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 24px;
+    height: 20px;
+    cursor: pointer;
+    background-color: black;
+    padding: 8px;
+    border-radius: 8px;
+  }
+  .hamburger-menu .bar {
+    width: 100%;
+    height: 2px; /* Reduced height for thinner lines */
+    background-color: white; /* White lines */
+    margin: 2px 0; /* Reduced spacing between lines */
+    border-radius: 1px; /* Slightly rounded edges for lines */
+  }
+  
+  /* Dropdown Menu */
+  .dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background: white;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    z-index: 999;
+  }
+  
+  .dropdown-menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  /* Dropdown Menu Styling */
+  .dropdown-menu ul li {
+      padding: 10px 20px; /* Add padding for better spacing */
+      cursor: pointer;
+      border-bottom: 1px solid rgba(0, 0, 0, 0.1); /* Add a subtle separator between items */
+      font-size: 16px; /* Slightly increase font size for better readability */
+      font-weight: 500; /* Bold for a cleaner look */
+      background-color: white; /* Background color for items */
+      transition: background-color 0.3s ease, color 0.3s ease; /* Smooth hover effect */
+    }
+    
+  
+  .dropdown-menu .menu-item {
+      font-size: 18px; /* Make the menu title more prominent */
+      font-weight: bold;
+      color: #333;
+    }
+  
+    .dropdown-menu ul li:hover {
+      background-color: rgba(0, 0, 0, 0.05); /* Light gray on hover */
+    }
+    .dropdown-menu .sub-menu {
+      padding-left: 30px; /* Indent submenu items for hierarchy */
+      border-left: 2px solid rgba(0, 0, 0, 0.1); /* Add a subtle border for submenu */
+    }
+  
+  .menu-item:hover .sub-menu,
+  .menu-item:focus-within .sub-menu {
+    display: block;
+  }
+  /* Button Group */
+.button-group {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+    flex-wrap: wrap; /* Ensures proper wrapping for small screens */
+  }
+  
+  /* Primary Button (View Details) */
+  .primary-button {
+    background-color: black; /* Black background */
+    color: white; /* White text */
+    padding: 12px 24px; /* Add padding for size */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Slightly rounded corners */
+    font-size: 16px; /* Font size */
+    font-weight: bold; /* Bold text */
+    cursor: pointer; /* Pointer cursor on hover */
+    text-align: center; /* Center text */
+    min-width: 120px; /* Ensure consistent button width */
+    transition: background-color 0.3s ease; /* Smooth hover effect */
+  }
+  
+  .primary-button:hover {
+    background-color: #333; /* Darker black on hover */
+  }
+  
+  /* Secondary Button (Contact) */
+  .secondary-button {
+    background-color: #f0f0f0; /* Light gray background */
+    border: 1px solid black; /* Black border */
+    color: black; /* Black text */
+    padding: 12px 24px; /* Add padding for size */
+    border-radius: 5px; /* Slightly rounded corners */
+    font-size: 16px; /* Font size */
+    font-weight: bold; /* Bold text */
+    cursor: pointer; /* Pointer cursor on hover */
+    text-align: center; /* Center text */
+    min-width: 120px; /* Ensure consistent button width */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth hover effect */
+  }
+  
+  .secondary-button:hover {
+    background-color: #e0e0e0; /* Darker gray on hover */
+  }
+  
+  /* Link Inside Secondary Button */
+  .secondary-button a {
+    text-decoration: none; /* Remove underline */
+    color: inherit; /* Inherit color from button */
+    display: block; /* Make the entire button clickable */
+    text-align: center; /* Ensure text is centered */
+  }
+  
+  /* Responsive Design for Smaller Screens */
+  @media (max-width: 768px) {
+    .button-group {
+      flex-direction: row; /* Keep buttons in a row */
+      gap: 10px; /* Adjust gap between buttons */
+    }
+  
+    .primary-button, .secondary-button {
+      width: auto; /* Prevent buttons from becoming too wide */
+      padding: 10px 20px; /* Adjust padding for smaller screens */
+      font-size: 14px; /* Reduce font size slightly */
+    }
+  }
+  
+  .hamburger-menu.active + .dropdown-menu {
+    display: block; /* Show the menu */
+  }
+  /* Menu Arrow */
+  .menu-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: rgba(0, 0, 0, 0.05); /* Background color for the menu title */
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .arrow {
+    font-size: 12px;
+    margin-left: 5px;
+    transform: rotate(0deg);
+    transition: transform 0.3s ease;
+  }
+  
+  .menu-item:hover .arrow,
+  .menu-item:focus-within .arrow {
+    transform: rotate(180deg);
+  }
+  .menu-item:hover .sub-menu,
+  .menu-item:focus-within .sub-menu {
+    display: none; /* Disable hover-based display */
+  }
+  
+  .menu-item .sub-menu {
+    display: none;
+  }
+  
+  .menu-item.active .sub-menu {
+    display: block; /* Show only when clicked */
+  }
+  /* Block Button Styling */
+  .button-light,
+  .button-dark {
+    width: 100%; /* Full-width */
+    display: flex; /* Use flex for centering */
+    align-items: center; /* Center vertically */
+    justify-content: center; /* Center horizontally */
+    padding: 15px; /* Add padding for better spacing */
+    font-size: 18px; /* Larger text size */
+    font-weight: bold;
+    background: none; /* Remove default button background */
+    text-transform: uppercase;
+    cursor: pointer;
+    border: none; /* Remove borders */
+    box-sizing: border-box; /* Ensure padding fits */
+  }
+  
+  .button-light {
+    background-color: #f0f0f0; /* Light gray */
+    color: black;
+  }
+  
+  .button-dark {
+    background-color: black; /* Dark background */
+    color: white; /* Text color */
+  }
+
+.button-light:hover {
+  background-color: #e0e0e0; /* Slight hover effect */
+}
+
+.button-dark:hover {
+  background-color: #333; /* Slight hover effect */
+}
+/* Home Button */
+.home-item {
+    padding: 10px 20px; /* Add padding for spacing */
+    background-color: #f9f9f9; /* Light background */
+    border-bottom: 2px solid rgba(0, 0, 0, 0.1); /* Add a subtle border below */
+  }
+  
+  .home-item:hover {
+    background-color: rgba(0, 0, 0, 0.05); /* Light gray on hover */
+  }
+  
+  .home-link {
+    text-decoration: none; /* Remove underline */
+    color: black; /* Black text */
+    font-size: 18px; /* Make it prominent */
+    font-weight: bold; /* Bold text */
+    display: block; /* Make it block-level for full clickability */
+    text-align: center; /* Center the text */
+  }
+  
+  .home-link:hover {
+    color: #007bff; /* Change text color on hover */
+  }
+
+  
+/* Intro Section */
+.intro-section {
+  position: relative; /* Ensure it works with pseudo-elements */
+  text-align: center;
+  padding: 60px 20px;
+  height: 100%; /* Take up remaining space in the wrapper */
+  margin: 0; /* Remove any unwanted gap */
+}
+
+.intro-section::before {
+  content: none; /* Disable inherited styles from the body */
+}
+
+  @media only screen and (max-width: 768px) {
+    .button-like {
+      position: relative; /* Ensure it's adjustable with top */
+      top: -20px; /* Moves the button upwards */
+      margin-bottom: 0px;
+    }
+  }
+  .button-like {
+    display: inline-block;
+    background: white; /* Button background color */
+    color: black; /* Text color */
+    padding: 6px 14px; /* Padding inside the button */
+    border-radius: 50px; /* Rounded corners */
+    font-size: 14px; /* Font size */
+    margin-bottom: 15px;
+    font-weight: bold; /* Bold text */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1), 
+                0 0 8px rgba(213, 26, 26, 0.5); /* Subtle red glow */
+    transition: box-shadow 0.3s ease-in-out; /* Smooth glow effect on hover */
+  }
+  
+  .button-like:hover {
+    box-shadow: 0 4px 10px rgba(213, 26, 26, 0.8), 
+                0 0 15px rgba(213, 26, 26, 0.8); /* Slightly stronger glow on hover */
+  }
+
+.intro-section h1 {
+  font-size: 32px;
+  margin-bottom: 10px; /* Reduced margin for closer alignment */
+}
+
+.intro-section p {
+  font-size: 18px;
+  color: #555;
+  margin-bottom: 20px;
+}
+@media (max-width: 768px) {
+  .intro-section p {
+    font-size: 15px;
+  }
+  .intro-section h1 {
+     margin-top: -8px;
+  }
+}
+
+/* Review Section */
+.review-section {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.review-section {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.review-section .review-icon {
+  width: 60px; /* Adjust the size as needed */
+  height: auto;
+ 
+  margin-bottom: 5px;
+}
+@media (max-width: 768px) {
+  .review-section .review-icon {
+    width: 50px; /* Adjust the size as needed */
+    height: auto;
+    
+    margin-bottom: 5px;
+  }
+}
+.review-section p {
+  font-size: 14px;
+  color: #555;
+}
+/* Diagram Section */
+.diagram-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative; /* Prevents interference with sticky positioning */
+  z-index: auto; /* Default stacking context */
+  padding: 20px 0; /* Adjust padding to minimize gaps */
+}
+
+.network-diagram {
+    width: 95%; /* Ensure responsiveness */
+    max-width: 1200px; /* Restrict maximum width */
+    height: 400px; /* Fixed height for all diagrams */
+    object-fit: contain; /* Maintain aspect ratio without cropping */
+    border-radius: 8px; /* Rounded edges for consistency */
+   
+  }
+/* Diagram Selector */
+.diagram-selector-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+  }
+  
+  .diagram-selector {
+    display: flex;
+    background: #f8f9fa;
+    border-radius: 50px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+  
+  .selector-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 9px 14px;
+    flex: 1;
+    font-size: 14px;
+    font-weight: bold;
+    color: #555;
+    cursor: pointer;
+    transition: background 0.3s ease, color 0.3s ease;
+    border: none;
+  }
+  
+  
+  .selector-button i {
+    font-size: 24px;
+    margin-bottom: 5px;
+  }
+  
+  .selector-button:hover {
+    background: #f0f0f0;
+  }
+  
+  .selector-button.active {
+    background: #d51a1a; /* Red background */
+    color: #fff; /* White text for contrast */
+}
+
+.selector-button.active i {
+    color: #fff; /* White icon color for contrast */
+}
+  
+  .selector-button:not(:last-child) {
+    border-right: 1px solid #ddd;
+  }
+  
+  /* Diagram Section */
+  .diagram-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+  }
+  
+
+/* Network Hardening Section with Subtle Continuous Glow */
+.network-hardening-section {
+    background-color: #f8f9fa; /* Light card background */
+    padding: 60px 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 123, 255, 0.3), /* Subtle blue glow */
+                0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle card shadow */
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: left;
+    position: relative;
+    overflow: hidden; /* Ensure contained elements fit nicely */
+    animation: glow-pulse 3s infinite; /* Add subtle pulsing animation */
+  }
+  
+  /* Glow Pulse Animation */
+  @keyframes glow-pulse {
+    0%, 100% {
+      box-shadow: 0 0 10px rgba(0, 123, 255, 0.3), 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+    50% {
+      box-shadow: 0 0 15px rgba(0, 123, 255, 0.4), 0 3px 8px rgba(0, 0, 0, 0.1);
+    }
+  }
+  /* Section Title */
+  .section-title {
+    font-size: 36px; /* Adjusted size for balance */
+    font-weight: bold;
+    text-align: center;
+    background: linear-gradient(135deg, #000, #333); /* Shiny gradient */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; /* Glossy effect */
+    margin-bottom: 40px;
+    text-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Slight shadow for depth */
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .selector-button {
+      padding: 6px 10px; /* Reduce padding for smaller buttons */
+      font-size: 12px; /* Decrease font size */
+    }
+  
+    .selector-button i {
+      font-size: 18px; /* Reduce icon size */
+      margin-bottom: 3px; /* Adjust spacing below icon */
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+  /* CIA Items */
+  .cia-item {
+    margin-bottom: 30px;
+    border-left: 4px solid #007bff; /* Blue accent border */
+    padding-left: 20px;
+    opacity: 0; /* Hidden by default for animation */
+    transform: translateY(20px); /* Slide effect start */
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+  }
+  .star2 {
+    font-size: 20px;
+    color: gold;
+    margin-top: 6px;
+    margin-bottom: 5px;
+    display: block;
+  }
+  .star {
+    color: gold;
+    font-size: 20px;
+  }
+  /* CIA Headings */
+  .cia-heading {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  /* Icons */
+  .confidentiality-icon,
+  .integrity-icon,
+  .availability-icon {
+    color: #007bff; /* Consistent blue color */
+    font-size: 24px;
+  }
+  
+  /* Paragraph Text */
+  .cia-item p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.6;
+    margin-top: 10px;
+  }
+  
+  /* Animation Trigger */
+  .cia-item.visible {
+    opacity: 1; /* Visible state */
+    transform: translateY(0); /* Slide into place */
+  }
+  
+  /* Decorative Icon Styling */
+  .decorative-image {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .selector-button {
+    cursor: pointer; /* Change cursor to pointer on hover */
+  }
+  
+  .decorative-icon {
+    font-size: 50px; /* Adjusted for larger impact */
+    color: #000; /* Solid black */
+    background: linear-gradient(135deg, #000, #333); /* Shiny gradient */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; /* Glossy effect */
+    text-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Glow effect */
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .section-title {
+      font-size: 32px;
+    }
+  
+    .cia-heading {
+      font-size: 20px;
+    }
+  
+    .cia-item p {
+      font-size: 14px;
+    }
+  
+    .confidentiality-icon,
+    .integrity-icon,
+    .availability-icon {
+      font-size: 20px;
+    }
+  }
+/* Project Summary Section */
+.project-summary-section {
+  text-align: center;
+  padding: 50px 20px;
+  background-color: #f9f9f9;
+}
+
+.project-summary-section h2 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.project-summary-section p {
+  font-size: 18px;
+  color: #555;
+}
+.auto-scrolling-reel {
+    overflow: hidden;
+    white-space: nowrap;
+    padding: 10px 0; /* Adjust padding to balance vertical centering */
+    background-color: #fff;
+    position: relative;
+    display: flex; /* Use flexbox for alignment */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 80px; /* Maintain the reduced height */
+    box-sizing: border-box; /* Ensure padding doesn't affect height */
+  }
+.reel-container {
+    margin-top: 40px;
+  display: inline-flex; /* Ensure items are laid out in a row */
+  animation: scroll-reel 80s linear infinite; /* Continuous scrolling, adjust speed here */
+}
+
+.reel-container span {
+  display: inline-block;
+  margin: 0 30px;
+  font-size: 18px;
+  color: #333;
+}
+
+.reel-container i {
+  margin-right: 10px;
+  color: #d51a1a;
+}
+
+/* Keyframes to control scrolling */
+@keyframes scroll-reel {
+  from {
+    transform: translateX(0); /* Start at the current position */
+  }
+  to {
+    transform: translateX(-100%); /* Scroll completely off the left side */
+  }
+}
+
+/* Cards Section */
+.cards-section {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  padding: 50px 20px;
+  background-color: #fff;
+}
+/* Initial hidden state */
+.animate-card {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 1.5s ease, transform 1.5s ease; /* Slow down animation */
+  }
+  
+  /* Visible state */
+  .animate-card.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+.card {
+  background: #f9f9f9;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+/* SECTION 1: PROJECT OVERVIEW & SCOPE */
+.project-overview56 {
+    padding: 60px 20px;
+    background-color: #ffffff;
+    text-align: left;
+    margin-bottom: 50px;
+    border-left: 6px solid #d51a1a; /* Red highlight */
+    position: relative;
+  }
+  
+  .section-title56 {
+    text-align: center;
+    font-size: 30px;
+    color: #000;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+  }
+  
+  .overview-content56 p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .scope-list56 {
+    list-style: disc inside;
+    margin-bottom: 20px;
+  }
+  
+  .lime-highlight56 {
+    color: #32CD32; /* Lime green accent */
+    font-weight: bold;
+  }
+  
+  .centered-btn56 {
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .learn-more-btn56 {
+    background-color: #d51a1a; /* Red background */
+    color: #fff;
+    border: none;
+    padding: 12px 28px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: all 0.3s ease;
+  }
+  
+  .learn-more-btn56:hover {
+    background-color: #a50f0f; /* Slightly darker red */
+    transform: translateY(-2px);
+  }
+
+  /* SECTION 2: PENETRATION TESTING STRATEGIES & TOOLS */
+.pentest-strategies42 {
+    padding: 60px 20px;
+    background-color: #f8f9fa;
+    text-align: left;
+    margin-bottom: 50px;
+  }
+  
+  .section-title42 {
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    color: #000;
+  }
+  
+  .pentest-content42 p {
+    font-size: 16px;
+    color: #333;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+  .tools-grid42 {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .tool-card42 {
+    background: #fff;
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .tool-card42 h3 {
+    margin: 0 0 10px 0;
+    font-size: 18px;
+    color: #d51a1a;
+  }
+  
+  .tool-card42 p {
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .centered-btn42 {
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .learn-more-btn42 {
+    background-color: #000; /* Black background */
+    color: #fff;
+    border: none;
+    padding: 12px 28px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: all 0.3s ease;
+  }
+  
+  .learn-more-btn42:hover {
+    background-color: #333;
+    transform: scale(1.02);
+  }
+
+  /* SECTION 3: VULNERABILITY IDENTIFICATION & REPORTING */
+.vuln-identification11 {
+    padding: 50px 20px;
+    background-color: #ffffff;
+    text-align: left;
+    margin-bottom: 50px;
+    border-top: 6px solid #d51a1a; /* Red highlight at the top */
+  }
+  
+  .section-title11 {
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    color: #000;
+  }
+  
+  .vuln-content11 p {
+    font-size: 16px;
+    color: #333;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+  .report-highlights11 {
+    list-style: circle inside;
+    margin-bottom: 20px;
+  }
+  
+  .lime-highlight11 {
+    color: #32CD32;
+    font-weight: bold;
+  }
+  
+  .centered-btn11 {
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .learn-more-btn11 {
+    background-color: #d51a1a;
+    color: #fff;
+    border: none;
+    padding: 12px 28px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .learn-more-btn11:hover {
+    background-color: #a50f0f;
+    transform: translateY(-3px);
+  }
+
+  /* SECTION 4: RISK ASSESSMENT & NETWORK HARDENING */
+.risk-hardening87 {
+    padding: 60px 20px;
+    background-color: #f8f9fa;
+    margin-bottom: 50px;
+  }
+  
+  .section-title87 {
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+    color: #000;
+  }
+  
+  .risk-hardening-grid87 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+  }
+  
+  .left-panel87, .right-panel87 {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+  
+  .subheading87 {
+    font-size: 20px;
+    color: #d51a1a;
+    margin-bottom: 15px;
+  }
+  
+  .left-panel87 p, .right-panel87 p {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 15px;
+    line-height: 1.6;
+  }
+  
+  .left-panel87 ul, .right-panel87 ol {
+    margin-left: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .lime-highlight87 {
+    color: #32CD32;
+    font-weight: bold;
+  }
+  
+  .centered-btn87 {
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .learn-more-btn87 {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 12px 28px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .learn-more-btn87:hover {
+    background-color: #333;
+  }
+  
+  /* Responsive Layout */
+  @media (max-width: 768px) {
+    .risk-hardening-grid87 {
+      grid-template-columns: 1fr; /* One column on mobile */
+    }
+  }
+  /* SECTION 5: INCIDENT RESPONSE & CLOUD SECURITY */
+.incident-cloud93 {
+    padding: 60px 20px;
+    background-color: #ffffff;
+    text-align: left;
+    margin-bottom: 50px;
+    border-bottom: 6px solid #d51a1a; /* Red highlight at the bottom */
+  }
+  
+  .section-title93 {
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    color: #000;
+  }
+  
+  .incident-cloud-content93 p {
+    font-size: 16px;
+    color: #333;
+    line-height: 1.6;
+    margin-bottom: 30px;
+  }
+  
+  .icon-boxes93 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+  }
+  
+  .icon-box93 {
+    background: #f8f9fa;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .icon-box93 i {
+    font-size: 30px;
+    color: #d51a1a;
+    margin-bottom: 10px;
+  }
+  
+  .icon-box93 h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .icon-box93 p {
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .centered-btn93 {
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .learn-more-btn93 {
+    background-color: #000; 
+    color: #fff;
+    border: none;
+    padding: 12px 28px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .learn-more-btn93:hover {
+    background-color: #333;
+  }
+
+  /* SECTION 6: AUTOMATION, TRAINING & HIPAA */
+.automation-training22 {
+    padding: 60px 20px;
+    background-color: #f8f9fa;
+    margin-bottom: 50px;
+  }
+  
+  .section-title22 {
+    text-align: center;
+    font-size: 28px;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+    color: #000;
+  }
+  
+  .automation-training-grid22 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+  }
+  
+  .automation-column22, .training-column22 {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+  
+  .automation-column22 h3,
+  .training-column22 h3 {
+    font-size: 18px;
+    color: #d51a1a;
+    margin-bottom: 15px;
+  }
+  
+  .automation-column22 ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .automation-column22 ul li {
+    background: url('https://img.icons8.com/ios-filled/15/000000/checkmark.png') no-repeat left center;
+    background-size: 15px;
+    padding-left: 25px;
+    margin-bottom: 10px;
+    font-size: 14px;
+  }
+  
+  .training-column22 p {
+    font-size: 14px;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 15px;
+  }
+  
+  .lime-highlight22 {
+    color: #32CD32;
+    font-weight: bold;
+  }
+  
+  .centered-btn22 {
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .learn-more-btn22 {
+    background-color: #d51a1a;
+    color: #fff;
+    border: none;
+    padding: 12px 28px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .learn-more-btn22:hover {
+    background-color: #a50f0f;
+    transform: scale(1.03);
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    .automation-training-grid22 {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  /* SECTION 7: NIST CYBERSECURITY FRAMEWORK */
+.nist-framework74 {
+    padding: 60px 20px;
+    background-color: #ffffff;
+    margin-bottom: 50px;
+    text-align: center;
+  }
+  
+  .section-title74 {
+    font-size: 28px;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+    color: #000;
+  }
+  
+  .nist-grid74 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    gap: 20px;
+    margin-bottom: 30px;
+  }
+  
+  .nist-phase74 {
+    background: #f8f9fa;
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .nist-phase74 h3 {
+    margin: 0 0 10px 0;
+    color: #d51a1a;
+    font-size: 18px;
+  }
+  
+  .nist-phase74 p {
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .nist-note74 {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .centered-btn74 {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .learn-more-btn74 {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 12px 28px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .learn-more-btn74:hover {
+    background-color: #333;
+  }
+
+  /* SECTION 8: CONCLUSION & FUTURE STEPS */
+.conclusion-steps19 {
+    padding: 60px 20px;
+    background-color: #f8f9fa;
+    text-align: left;
+    margin-bottom: 50px;
+  }
+  
+  .section-title19 {
+    font-size: 28px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #000;
+  }
+  
+  .conclusion-content19 p {
+    font-size: 16px;
+    color: #333;
+    line-height: 1.6;
+    margin-bottom: 15px;
+  }
+  
+  .centered-btn19 {
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .learn-more-btn19 {
+    background-color: #d51a1a;
+    color: #fff;
+    border: none;
+    padding: 12px 28px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .learn-more-btn19:hover {
+    background-color: #a50f0f;
+  }
+  .centered-btn199 {
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .learn-more-btn199 {
+    background-color: #d51a1a;
+    color: #fff;
+    border: none;
+    padding: 12px 28px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .learn-more-btn199:hover {
+    background-color: #a50f0f;
+  }
+  .centered-btn299 {
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .learn-more-btn299 {
+    background-color: #d51a1a;
+    color: #fff;
+    border: none;
+    padding: 12px 28px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .learn-more-btn299:hover {
+    background-color: #a50f0f;
+  }
+  .centered-btn499 {
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .learn-more-btn499 {
+    background-color: #d51a1a;
+    color: #fff;
+    border: none;
+    padding: 12px 28px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .learn-more-btn499:hover {
+    background-color: #a50f0f;
+  }
+  .centered-btn599 {
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .learn-more-btn599 {
+    background-color: #d51a1a;
+    color: #fff;
+    border: none;
+    padding: 12px 28px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .learn-more-btn599:hover {
+    background-color: #a50f0f;
+  }
+  .centered-btn629 {
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .learn-more-btn629 {
+    background-color: #d51a1a;
+    color: #fff;
+    border: none;
+    padding: 12px 28px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .learn-more-btn629:hover {
+    background-color: #a50f0f;
+  }
+    /* ===============================
+       GLOBAL & UTILITY CLASSES
+       =============================== */
+       body {
+        margin: 0;
+        padding: 0;
+        font-family: "Helvetica Neue", Arial, sans-serif;
+        background-color: #fdfdfd; /* Slightly off-white for the background */
+        color: #333;
+        line-height: 1.6;
+      }
+      h1, h2, h3, h4, h5, h6 {
+        margin: 0;
+        font-weight: normal;
+      }
+      p {
+        margin: 0.5rem 0;
+      }
+      ul, ol {
+        margin: 0.75rem 0 0.75rem 2rem;
+        padding: 0;
+      }
+      /* Subtle highlight for mention of HIPAA or key phrases */
+      .lime-highlight {
+        color: #2e7d32;
+        font-weight: bold;
+      }
+  
+      /* A simple container spacing utility */
+      .container {
+        width: 95%;
+        max-width: 1100px;
+        margin: 0 auto;
+        padding: 1rem;
+      }
+  
+      /* Section headings style - each section will slightly override or extend this */
+      .section-title {
+        font-size: 1.7rem;
+        color: #d32f2f;
+        margin-bottom: 1rem;
+        display: flex;
+        align-items: center;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+      }
+      .section-title i {
+        margin-right: 0.5rem;
+      }
+  
+      /* ===============================
+         SECTION 1: Overview & Purpose
+         =============================== */
+      #overview83 {
+        background: #fff;
+        padding: 2rem 1rem;
+        margin-bottom: 2rem;
+        box-shadow: 0 1px 4px rgba(0,0,0,0.07);
+        border-left: 4px solid #d32f2f;
+      }
+      #overview83 .overview-heading {
+        font-size: 1.3rem;
+        margin-bottom: 0.5rem;
+        color: #444;
+        font-weight: bold;
+      }
+      #overview83 .overview-highlight {
+        background: #fafafa;
+        border-radius: 4px;
+        padding: 1rem;
+        margin-top: 1rem;
+        border: 1px solid #eee;
+      }
+      #overview83 ul.overview-checklist {
+        list-style-type: none;
+        padding-left: 0;
+        margin: 1rem 0;
+      }
+      #overview83 ul.overview-checklist li {
+        margin: 0.5rem 0;
+        padding-left: 2rem;
+        position: relative;
+      }
+      #overview83 ul.overview-checklist li i {
+        color: #2e7d32;
+        position: absolute;
+        left: 0;
+        top: 0.1rem;
+      }
+  
+      /* ===============================
+         SECTION 2: Ethical & Legal
+         =============================== */
+      #ethics41 {
+        background: linear-gradient(90deg, #fff, #f9f9f9);
+        margin-bottom: 2rem;
+        padding: 2rem 1rem;
+        border-top: 2px dashed #ddd;
+      }
+      #ethics41 .ethical-list {
+        margin: 1rem 0;
+        border: 1px solid #eee;
+        border-radius: 4px;
+        background: #fff;
+        overflow: hidden;
+      }
+      #ethics41 .ethical-list li {
+        padding: 0.8rem;
+        border-bottom: 1px solid #eee;
+        position: relative;
+        padding-left: 2rem;
+      }
+      #ethics41 .ethical-list li:last-child {
+        border-bottom: none;
+      }
+      #ethics41 .ethical-list li i {
+        color: #d32f2f;
+        position: absolute;
+        left: 0.5rem;
+        top: 0.8rem;
+      }
+  
+      /* ===============================
+         SECTION 3: Network Architecture
+         =============================== */
+      #netarch72 {
+        background: #fff;
+        margin-bottom: 2rem;
+        padding: 2rem 1rem;
+        box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+        border-radius: 6px;
+      }
+      #netarch72 .network-columns {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
+        margin-top: 1.5rem;
+      }
+      #netarch72 .diagram-col,
+      #netarch72 .info-col {
+        flex: 1 1 300px;
+        min-width: 280px;
+      }
+      #netarch72 .diagram-col img {
+        max-width: 100%;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+      }
+      #netarch72 ul.arch-list {
+        padding-left: 0;
+        list-style-type: none;
+        margin: 1rem 0;
+      }
+      #netarch72 ul.arch-list li {
+        margin: 0.5rem 0;
+        padding-left: 1.5rem;
+        position: relative;
+      }
+      #netarch72 ul.arch-list li i {
+        color: #d32f2f;
+        position: absolute;
+        left: 0;
+        top: 0.2rem;
+      }
+  
+      /* ===============================
+         SECTION 4: Reconnaissance
+         =============================== */
+      #recon11 {
+        background: #fefefe;
+        margin-bottom: 2rem;
+        padding: 2rem 1rem;
+        border-left: 5px double #2e7d32;
+      }
+      #recon11 .flowchart-img {
+        text-align: center;
+        margin: 1.5rem 0;
+      }
+      #recon11 .flowchart-img img {
+        max-width: 400px;
+        border: 2px solid #ddd;
+        border-radius: 6px;
+      }
+      #recon11 table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 1.5rem;
+      }
+      #recon11 table thead tr {
+        background: #f5f5f5;
+      }
+      #recon11 table th,
+      #recon11 table td {
+        border: 1px solid #eee;
+        padding: 0.8rem;
+        text-align: left;
+      }
+      #recon11 table th {
+        color: #666;
+        font-weight: 600;
+      }
+  /* Mobile-Only CSS for Reconnaissance Section */
+@media only screen and (max-width: 768px) {
+  
+  /* 1. Make the Table Horizontally Scrollable */
+  #recon11 table {
+    display: block; /* Allows overflow properties to take effect */
+    overflow-x: auto; /* Enables horizontal scrolling */
+    -webkit-overflow-scrolling: touch; /* Smooth scrolling on iOS devices */
+    width: 100%; /* Ensures table occupies full container width */
+  }
+
+  /* Prevent Content Wrapping in Table Cells */
+  #recon11 table th,
+  #recon11 table td {
+    white-space: nowrap; /* Keeps content in a single line */
+  }
+
+  /* Optional: Adjust Padding and Font Size for Better Readability */
+  #recon11 table th,
+  #recon11 table td {
+    padding: 0.6rem; /* Reduced padding */
+    font-size: 14px; /* Smaller font size */
+  }
+
+  /* 2. Make the Flowchart Image Responsive */
+  #recon11 .flowchart-img img {
+    max-width: 100%; /* Ensures image doesn't exceed container width */
+    height: auto; /* Maintains aspect ratio */
+    border: 2px solid #ddd; /* Retains existing border */
+    border-radius: 6px; /* Retains existing border radius */
+  }
+
+  /* Optional: Adjust Section Padding for Better Mobile Layout */
+  #recon11 {
+    padding: 1.5rem 0.5rem; /* Reduced padding on smaller screens */
+  }
+}
+      /* ===============================
+         SECTION 5: Vulnerability Analysis
+         =============================== */
+      #vuln47 {
+        background: #ffffff;
+        margin-bottom: 2rem;
+        padding: 2rem 1rem;
+        border-radius: 6px;
+        border: 1px solid #eee;
+      }
+      #vuln47 .vuln-steps {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
+        margin: 1rem 0;
+      }
+      #vuln47 .vuln-step {
+        flex: 1 1 220px;
+        background: #fafafa;
+        border: 1px solid #eee;
+        border-radius: 4px;
+        padding: 1rem;
+        position: relative;
+        box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+      }
+      #vuln47 .vuln-step i {
+        color: #2e7d32;
+        font-size: 1.2rem;
+        margin-right: 0.5rem;
+      }
+      #vuln47 .vuln-step:hover {
+        background: #fff;
+        box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      }
+  
+      /* ===============================
+         SECTION 6: Exploitation
+         WITH A SIMPLE CAROUSEL (PLACEHOLDER)
+         =============================== */
+      #exploit94 {
+        background: #fdfdfd;
+        margin-bottom: 2rem;
+        padding: 2rem 1rem;
+        position: relative;
+      }
+      /* Placeholder carousel container */
+      #carousel-exploit {
+        display: flex;
+        overflow-x: auto;
+        scroll-behavior: smooth;
+        gap: 1rem;
+        padding-bottom: 1rem;
+        margin-top: 1rem;
+      }
+      #carousel-exploit .exploit-card {
+        min-width: 220px;
+        flex: 0 0 auto;
+        background: #fff;
+        border: 1px solid #eee;
+        border-radius: 4px;
+        padding: 1rem;
+        box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+        transition: transform 0.2s ease;
+      }
+      #carousel-exploit .exploit-card:hover {
+        transform: translateY(-3px);
+        box-shadow: 0 4px 8px rgba(0,0,0,0.12);
+      }
+      #carousel-exploit .exploit-card h3 i {
+        color: #d32f2f;
+        margin-right: 0.3rem;
+      }
+ /* Mobile-Only CSS for Stacking Tool Cards Vertically */
+@media only screen and (max-width: 768px) {
+  /* Adjust the tool-grid to use a single-column layout */
+  .tool-grid {
+    display: flex; /* Ensure flexbox is being used */
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items horizontally */
+    gap: 20px; /* Optional: Add space between cards */
+    padding: 0 10px; /* Optional: Add horizontal padding */
+  }
+
+  /* Make each tool-item take full width and adjust spacing */
+  .tool-item {
+    width: 100%; /* Allow items to take full container width */
+    max-width: 400px; /* Optional: Limit the maximum width of each card */
+    box-sizing: border-box; /* Ensure padding and borders are included in width */
+    margin: 0 auto; /* Center the cards within the container */
+  }
+
+  /* Optional: Adjust font sizes and icon sizes for better readability */
+  .tool-item h4 {
+    font-size: 18px; /* Reduce heading size */
+    margin-top: 10px;
+  }
+
+  .tool-item p {
+    font-size: 14px; /* Reduce paragraph text size */
+  }
+
+  .tool-item i {
+    font-size: 30px; /* Adjust icon size if necessary */
+    margin-bottom: 10px; /* Add space below the icon */
+  }
+}
+      /* ===============================
+         SECTION 7: Post-Exploitation
+         =============================== */
+      #postexploit36 {
+        background: #fff;
+        margin-bottom: 2rem;
+        padding: 2rem 1rem;
+        box-shadow: inset 0 0 100px rgba(0,0,0,0.02);
+      }
+      #postexploit36 .persistence-list {
+        border-left: 4px solid #d32f2f;
+        margin: 1rem 0;
+        padding-left: 1.5rem;
+      }
+      #postexploit36 .persistence-list li {
+        margin-bottom: 0.5rem;
+        position: relative;
+        padding-left: 1rem;
+      }
+      #postexploit36 .persistence-list li:before {
+        content: "•";
+        color: #d32f2f;
+        position: absolute;
+        left: -1.5rem;
+      }
+  
+      /* ===============================
+         SECTION 8: Tool Arsenal
+         =============================== */
+      #tools52 {
+        background: #f8f8f8;
+        margin-bottom: 2rem;
+        padding: 2rem 1rem;
+        border: 1px solid #eee;
+        border-radius: 4px;
+      }
+      #tools52 .tool-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+        gap: 1rem;
+        margin-top: 1rem;
+      }
+      #tools52 .tool-item {
+        background: #fff;
+        border: 1px solid #eee;
+        border-radius: 4px;
+        padding: 1rem;
+        text-align: center;
+        transition: box-shadow 0.2s ease;
+      }
+      #tools52 .tool-item:hover {
+        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      }
+      #tools52 .tool-item i {
+        color: #2e7d32;
+        font-size: 1.5rem;
+        margin-bottom: 0.5rem;
+      }
+  
+      /* ===============================
+         SECTION 9: Reporting & Docs
+         =============================== */
+      #report78 {
+        background: #ffffff;
+        margin-bottom: 2rem;
+        padding: 2rem 1rem;
+        border-left: 6px solid #d32f2f;
+      }
+      #report78 ol.report-list {
+        padding-left: 1.5rem;
+      }
+      #report78 ol.report-list li {
+        margin-bottom: 0.5rem;
+      }
+      #report78 .chart-placeholder {
+        margin: 1.5rem 0;
+        text-align: center;
+      }
+      #report78 .chart-placeholder .chart-box {
+        width: 400px;
+        height: 200px;
+        margin: 0 auto;
+        border: 2px dashed #ccc;
+        border-radius: 4px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #999;
+      }
+  
+      /* ===============================
+         SECTION 10: Future Enhancements
+         =============================== */
+      #future65 {
+        background: #fafafa;
+        padding: 2rem 1rem;
+      }
+      #future65 .enhancements-list {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
+        margin-top: 1rem;
+      }
+      #future65 .enhancement-box {
+        flex: 1 1 220px;
+        background: #fff;
+        border: 1px solid #eee;
+        border-radius: 4px;
+        padding: 1rem;
+        transition: box-shadow 0.2s ease;
+        position: relative;
+      }
+      #future65 .enhancement-box:hover {
+        box-shadow: 0 4px 8px rgba(0,0,0,0.12);
+      }
+      #future65 .enhancement-box i {
+        color: #d32f2f;
+        font-size: 1.4rem;
+        margin-right: 0.4rem;
+      }
+
+
+
+
+
+
+
+
+/********************************************/
+/*  Mission & Scope Page - Unique Styles    */
+/********************************************/
+
+/* Root or Global Variables (Adjust as needed) */
+:root {
+  --main-red: #d51a1a;       /* Your primary red color */
+  --main-lime: #32CD32;      /* Lime highlight color */
+  --bg-light: #f8f9fa;       /* Light gray background */
+  --text-dark: #333;         /* Standard text color */
+  --border-radius: 8px;      /* General border radius */
+  --box-shadow-sm: 0 2px 5px rgba(0, 0, 0, 0.1);
+  --box-shadow-md: 0 4px 8px rgba(0, 0, 0, 0.1);
+  --transition-ease: 0.3s ease;
+}
+
+/* Basic Utility: Lime-Highlight Class */
+.lime-highlight {
+  color: var(--main-lime);
+  font-weight: bold;
+}
+
+/* =============== 1) MISSION INTRO / TOP BLURB =============== */
+#missionIntro849 {
+  background-color: #ffffff;
+  border-left: 6px solid var(--main-red);
+  padding: 40px 20px;
+  margin-bottom: 30px;
+}
+.mission-intro849 h1 {
+  font-size: 32px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+.mission-intro849 p {
+  font-size: 16px;
+  color: var(--text-dark);
+  line-height: 1.6;
+}
+
+/* =============== 2) INTRODUCTION & BACKGROUND =============== */
+#intro219 {
+  background-color: var(--bg-light);
+  padding: 40px 20px;
+  margin-bottom: 30px;
+  border-top: 6px solid var(--main-red);
+}
+#intro219 h2 {
+  font-size: 24px;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+.intro219 p {
+  font-size: 16px;
+  color: var(--text-dark);
+  margin-bottom: 15px;
+  line-height: 1.6;
+}
+
+/* =============== 3) SCOPE & SANDBOX OVERVIEW =============== */
+#scope677 {
+  background-color: #ffffff;
+  padding: 40px 20px;
+  margin-bottom: 30px;
+  border-left: 6px solid var(--main-red);
+}
+#scope677 h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+.scope-content677 p {
+  font-size: 16px;
+  color: var(--text-dark);
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+/* Cards for Scope Items */
+.scope-card-deck677 {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 20px;
+}
+.scope-card677 {
+  background-color: var(--bg-light);
+  border-radius: var(--border-radius);
+  box-shadow: var(--box-shadow-sm);
+  padding: 20px;
+  text-align: center;
+  transition: transform var(--transition-ease);
+}
+.scope-card677:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--box-shadow-md);
+}
+.scope-card677 i {
+  font-size: 28px;
+  color: var(--main-red);
+  margin-bottom: 8px;
+}
+.scope-card677 h3 {
+  font-size: 18px;
+  margin-bottom: 8px;
+  color: var(--text-dark);
+}
+.scope-card677 p {
+  font-size: 14px;
+  color: #555;
+}
+
+/* =============== 4) PROJECT GOALS & OBJECTIVES =============== */
+#goals544 {
+  background-color: var(--bg-light);
+  padding: 40px 20px;
+  margin-bottom: 30px;
+  border-bottom: 6px dotted var(--main-red);
+}
+#goals544 h2 {
+  font-size: 24px;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+.goals-list544 {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 15px;
+}
+.goals-list544 li {
+  position: relative;
+  margin: 12px 0;
+  padding-left: 35px;
+  font-size: 16px;
+  color: var(--text-dark);
+}
+.goals-list544 li i {
+  position: absolute;
+  left: 0;
+  top: 3px;
+  color: var(--main-red);
+  font-size: 18px;
+}
+
+/* =============== 5) ETHICAL APPROACH & GUIDELINES =============== */
+#ethics352 {
+  background-color: #ffffff;
+  padding: 40px 20px;
+  margin-bottom: 30px;
+  border-left: 6px solid var(--main-red);
+}
+#ethics352 h2 {
+  font-size: 24px;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+.ethics352 p {
+  font-size: 16px;
+  color: var(--text-dark);
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+.ethics-ol352 {
+  counter-reset: ethicsCounter;
+  margin-left: 25px;
+}
+.ethics-ol352 li {
+  counter-increment: ethicsCounter;
+  margin-bottom: 10px;
+  position: relative;
+  padding-left: 30px;
+  font-size: 16px;
+  color: #555;
+}
+.ethics-ol352 li::before {
+  content: counter(ethicsCounter) ". ";
+  color: var(--main-red);
+  font-weight: bold;
+  position: absolute;
+  left: -25px;
+}
+
+/* =============== 6) PRELIMINARY RISK CONSIDERATIONS =============== */
+#risk933 {
+  background-color: var(--bg-light);
+  padding: 40px 20px;
+  margin-bottom: 30px;
+  border-top: 6px dotted var(--main-red);
+}
+#risk933 h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+.risk-carousel933 {
+  display: flex;
+  gap: 20px;
+  overflow-x: auto; /* Horizontal scroll for a carousel effect */
+  padding-bottom: 10px;
+}
+.risk-slide933 {
+  flex: 0 0 280px; /* Fixed width for slides */
+  background-color: #fff;
+  border-radius: var(--border-radius);
+  box-shadow: var(--box-shadow-sm);
+  padding: 20px;
+  margin-bottom: 10px;
+  transition: transform var(--transition-ease);
+}
+.risk-slide933:hover {
+  transform: translateY(-3px);
+  box-shadow: var(--box-shadow-md);
+}
+.risk-slide933 h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: var(--text-dark);
+}
+.risk-slide933 i {
+  color: var(--main-red);
+  margin-right: 6px;
+}
+.risk-slide933 p {
+  font-size: 14px;
+  color: #555;
+  line-height: 1.5;
+}
+
+/* =============== 7) HIGH-LEVEL METHODOLOGY =============== */
+#method488 {
+  background-color: #ffffff;
+  padding: 40px 20px;
+  margin-bottom: 30px;
+  border-left: 6px solid var(--main-red);
+}
+#method488 h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+.method488 p {
+  font-size: 16px;
+  color: var(--text-dark);
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+.method-checklist488 {
+  list-style: none;
+  padding-left: 0;
+}
+.method-checklist488 li {
+  position: relative;
+  margin: 10px 0;
+  padding-left: 35px;
+  font-size: 16px;
+  color: #555;
+}
+.method-checklist488 li i {
+  color: var(--main-red);
+  position: absolute;
+  left: 0;
+  top: 3px;
+  font-size: 18px;
+}
+
+/* =============== 8) MONITORING & LOGGING PLANS =============== */
+#logging790 {
+  background-color: var(--bg-light);
+  padding: 40px 20px;
+  margin-bottom: 30px;
+  border-bottom: 6px solid var(--main-red);
+}
+#logging790 h2 {
+  font-size: 24px;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+.logging-cards790 {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+}
+.logging-card790 {
+  background-color: #fff;
+  border-radius: var(--border-radius);
+  box-shadow: var(--box-shadow-sm);
+  padding: 20px;
+  text-align: center;
+  transition: transform var(--transition-ease);
+}
+.logging-card790:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--box-shadow-md);
+}
+.logging-card790 i {
+  font-size: 28px;
+  color: var(--main-red);
+  margin-bottom: 8px;
+}
+.logging-card790 h4 {
+  font-size: 18px;
+  margin-bottom: 8px;
+  color: var(--text-dark);
+}
+.logging-card790 p {
+  font-size: 14px;
+  color: #555;
+  line-height: 1.4;
+}
+
+/* =============== 9) PRELIMINARY FINDINGS & FOCUS AREAS =============== */
+#findings613 {
+  background-color: #ffffff;
+  padding: 40px 20px;
+  margin-bottom: 30px;
+  border-left: 6px solid var(--main-red);
+}
+#findings613 h2 {
+  font-size: 24px;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+.findings613 p {
+  font-size: 16px;
+  color: var(--text-dark);
+  margin-bottom: 15px;
+  line-height: 1.6;
+}
+.findings-list613 {
+  list-style: none;
+  padding-left: 0;
+}
+.findings-list613 li {
+  margin: 8px 0;
+  font-size: 16px;
+  position: relative;
+  padding-left: 10px;
+  color: #555;
+}
+.findings-list613 li::before {
+  content: "• ";
+  color: var(--main-red);
+  font-weight: bold;
+  position: absolute;
+  left: -10px;
+}
+
+/* =============== 10) SUMMARY & NEXT STEPS =============== */
+#summary505 {
+  background-color: var(--bg-light);
+  padding: 40px 20px;
+  margin-bottom: 30px;
+  border-top: 6px solid var(--main-red);
+}
+#summary505 h2 {
+  font-size: 24px;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+.summary505 p {
+  font-size: 16px;
+  color: var(--text-dark);
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+/********************************************/
+/* END OF MISSION & SCOPE PAGE STYLES       */
+/********************************************/
+
+
+/**********************************************/
+/* NETWORK INFRASTRUCTURE PAGE - UNIQUE STYLES*/
+/**********************************************/
+
+/* ========== 1) INTRO / TOP BLURB ========== */
+#intro423 {
+  background-color: #ffffff;
+  padding: 40px 20px;
+  margin-bottom: 30px;
+  border-left: 6px solid #d51a1a; /* Red highlight border */
+}
+.intro423 h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+.intro423 p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #333;
+}
+
+/* ========== 2) CURRENT INFRASTRUCTURE OVERVIEW ========== */
+#infra346 {
+  background-color: #f8f9fa;
+  padding: 40px 20px;
+  margin-bottom: 30px;
+  border-top: 6px solid #d51a1a; /* Red highlight at top */
+}
+.infra346 h2 {
+  font-size: 24px;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+.infra-list346 {
+  list-style: none;
+  padding-left: 0;
+}
+.infra-list346 li {
+  position: relative;
+  margin: 10px 0;
+  padding-left: 30px;
+  color: #555;
+}
+.infra-list346 li i {
+  position: absolute;
+  left: 0;
+  top: 2px;
+  color: #d51a1a;
+  font-size: 16px;
+}
+
+/* ========== 3) DEVICE & SEGMENT INVENTORY (TABLE) ========== */
+#devices877 {
+  background-color: #ffffff;
+  padding: 40px 20px;
+  margin-bottom: 30px;
+  border-left: 6px solid #d51a1a;
+}
+.devices877 h2 {
+  font-size: 24px;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+.devices-table877 {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background: #f8f9fa;
+}
+.devices-table877 thead {
+  background-color: #eaeaea;
+}
+.devices-table877 th,
+.devices-table877 td {
+  padding: 12px;
+  border: 1px solid #ddd;
+  font-size: 14px;
+  color: #333;
+  vertical-align: middle;
+}
+.devices-table877 th {
+  font-weight: 600;
+  color: #444;
+}
+.devices-table877 tbody tr:hover {
+  background-color: #fff;
+}
+/* Mobile-Only CSS for Inline Scroll on the Table */
+@media only screen and (max-width: 768px) {
+  /* Make the table a block element and enable horizontal scrolling */
+  .devices-table877 {
+    display: block;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch; /* Smooth scrolling on iOS */
+    width: 100%; /* Ensure the table takes full available width */
+  }
+
+  /* Prevent table cells from wrapping content */
+  .devices-table877 th,
+  .devices-table877 td {
+    white-space: nowrap;
+  }
+
+  /* Optional: Reduce font size and padding for better mobile display */
+  .devices-table877 th,
+  .devices-table877 td {
+    font-size: 12px;
+    padding: 8px;
+  }
+}
+/* ========== 4) SECURITY MECHANISMS IN PLACE ========== */
+#security112 {
+  background-color: #f8f9fa;
+  padding: 40px 20px;
+  margin-bottom: 30px;
+  border-bottom: 6px dotted #d51a1a; /* Dotted red border at bottom */
+}
+.security112 h2 {
+  font-size: 24px;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+.security-cards112 {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 20px;
+}
+.security-card112 {
+  background: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+.security-card112:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+}
+.security-card112 i {
+  font-size: 28px;
+  color: #d51a1a;
+  margin-bottom: 10px;
+}
+.security-card112 h4 {
+  font-size: 18px;
+  margin-bottom: 8px;
+  color: #333;
+}
+.security-card112 p {
+  font-size: 14px;
+  color: #555;
+}
+
+/* ========== 5) PROS & CONS COMPARISON ========== */
+#proscons528 {
+  background-color: #ffffff;
+  padding: 40px 20px;
+  margin-bottom: 30px;
+  border-left: 6px solid #d51a1a;
+}
+.proscons528 h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+.proscons-grid528 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+.pros-panel528, .cons-panel528 {
+  background: #f8f9fa;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+.pros-panel528 h3, .cons-panel528 h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.pros-panel528 ul, .cons-panel528 ul {
+  list-style: none;
+  padding-left: 0;
+}
+.pros-panel528 li, .cons-panel528 li {
+  margin: 6px 0;
+  color: #555;
+}
+.pros-panel528 i {
+  color: #32CD32; /* Green icon for pros */
+  margin-right: 5px;
+}
+.cons-panel528 i {
+  color: #d51a1a; /* Red icon for cons */
+  margin-right: 5px;
+}
+
+/* Responsive for pros & cons */
+@media (max-width: 768px) {
+  .proscons-grid528 {
+    grid-template-columns: 1fr; /* Stack them on small screens */
+  }
+}
+
+/* ========== 6) POTENTIAL ENTRY POINTS ========== */
+#entry219 {
+  background-color: #f8f9fa;
+  padding: 40px 20px;
+  margin-bottom: 30px;
+  border-top: 6px dotted #d51a1a;
+}
+#entry219 h2 {
+  font-size: 24px;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+.entry-ol219 {
+  counter-reset: entryCounter;
+  margin-left: 20px;
+}
+.entry-ol219 li {
+  counter-increment: entryCounter;
+  position: relative;
+  margin-bottom: 8px;
+  padding-left: 25px;
+  color: #555;
+}
+.entry-ol219 li::before {
+  content: counter(entryCounter) ". ";
+  color: #d51a1a;
+  font-weight: bold;
+  position: absolute;
+  left: -25px;
+}
+
+/* ========== 7) DATA CLASSIFICATION & ASSET MAPPING ========== */
+#datamap984 {
+  background-color: #ffffff;
+  padding: 40px 20px;
+  margin-bottom: 30px;
+  border-left: 6px solid #d51a1a;
+}
+#datamap984 h2 {
+  font-size: 24px;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+.datamap-carousel984 {
+  display: flex;
+  overflow-x: auto; /* Horizontal scroll for a carousel effect */
+  gap: 20px;
+  margin-top: 20px;
+}
+.datamap-slide984 {
+  flex: 0 0 230px; /* Slide width */
+  background: #f8f9fa;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  padding: 15px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+.datamap-slide984:hover {
+  transform: translateY(-3px);
+}
+.datamap-slide984 h4 {
+  font-size: 16px;
+  margin-bottom: 8px;
+  color: #333;
+}
+.datamap-slide984 i {
+  color: #d51a1a;
+  margin-right: 5px;
+}
+.datamap-slide984 p {
+  font-size: 14px;
+  color: #555;
+}
+
+/* ========== 8) NIST & HIPAA INTEGRATION ========== */
+#nisthipaa671 {
+  background-color: #f8f9fa;
+  padding: 40px 20px;
+  margin-bottom: 30px;
+  border-bottom: 6px solid #d51a1a;
+}
+#nisthipaa671 h2 {
+  font-size: 24px;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+.nist-list671 {
+  list-style: none;
+  padding-left: 0;
+}
+.nist-list671 li {
+  position: relative;
+  margin: 8px 0;
+  padding-left: 28px;
+  color: #555;
+}
+.nist-list671 li i {
+  position: absolute;
+  left: 0;
+  top: 2px;
+  font-size: 16px;
+  color: #d51a1a;
+}
+
+/* ========== 9) DIAGRAM SHOWCASE ========== */
+#diagram309 {
+  background-color: #ffffff;
+  padding: 40px 20px;
+  margin-bottom: 30px;
+  border-left: 6px solid #d51a1a;
+}
+#diagram309 h2 {
+  font-size: 24px;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+.diagram-carousel309 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.diagram-slide309 {
+  flex: 1 1 300px;
+  max-width: 400px;
+  background: #f8f9fa;
+  border-radius: 8px;
+  padding: 15px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  text-align: center;
+}
+.diagram-slide309 img {
+  max-width: 100%;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+.diagram-caption309 {
+  font-size: 14px;
+  color: #555;
+}
+
+/* ========== 10) SUMMARY & NEXT STEPS ========== */
+#summary999 {
+  background-color: #f8f9fa;
+  padding: 40px 20px;
+  margin-bottom: 30px;
+  border-top: 6px solid #d51a1a;
+}
+#summary999 h2 {
+  font-size: 24px;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+.summary999 p {
+  font-size: 16px;
+  color: #333;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+.button-row999 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 20px;
+}
+.red-button999 {
+  background-color: #d51a1a;
+  color: #fff;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+.red-button999:hover {
+  background-color: #a50f0f;
+}
+.light-button999 {
+  background-color: #e0e0e0;
+  color: #333;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+.light-button999:hover {
+  background-color: #cfcfcf;
+}
+
+/****************************************************/
+/* End of NETWORK INFRASTRUCTURE PAGE - UNIQUE STYLES*/
+/****************************************************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Quick Links Container */
+.quick-links-container {
+    background: linear-gradient(145deg, #1a1a1a, #2b2b2b); /* Shiny black background */
+    border-radius: 10px; /* Smooth edges */
+    padding: 20px;
+    margin: 20px 0; /* Space around the container */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); /* Subtle shadow */
+    text-align: center;
+  }
+  
+  /* Quick Links Title */
+  .quick-links-container h3 {
+    font-size: 20px;
+    color: #fff; /* White text */
+    margin-bottom: 15px;
+  }
+  
+  /* Quick Links */
+  .quick-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+  }
+  
+  /* Quick Links Individual Links */
+  .quick-links a {
+    color: #fff; /* White text */
+    background: #333; /* Darker button-style background */
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none; /* Remove underline */
+    font-weight: bold;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Subtle button shadow */
+  }
+  
+  /* Hover Effect for Links */
+  .quick-links a:hover {
+    background: #555; /* Slightly lighter background on hover */
+    color: #fff;
+    transform: scale(1.05); /* Slight zoom effect */
+  }
+
+
+
+
+/* Container */
+
+.container {
+  margin: 0 auto;
+  max-width: calc(100% - 50px);
+  width: 1200px;
+}
+
+  .container.medium {
+      width: 900px;
+  }
+
+  @media screen and (max-width: 1680px) {
+
+      .container {
+          width: 1200px;
+      }
+
+          .container.medium {
+              width: 900px;
+          }
+
+  }
+
+  @media screen and (max-width: 1280px) {
+
+      .container {
+          width: 960px;
+      }
+
+          .container.medium {
+              width: 720px;
+          }
+
+  }
+
+  @media screen and (max-width: 980px) {
+
+      .container {
+          width: 100%;
+      }
+
+          .container.medium {
+              width: 75%;
+          }
+
+  }
+
+  @media screen and (max-width: 736px) {
+
+      .container {
+          width: 100%;
+          max-width: calc(100% - 30px);
+      }
+
+          .container.medium {
+              width: 100%;
+          }
+
+  }
+
+/* Row */
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  align-items: stretch;
+}
+
+  .row > * {
+      box-sizing: border-box;
+  }
+
+  .row.gtr-uniform > * > :last-child {
+      margin-bottom: 0;
+  }
+
+  .row.aln-left {
+      justify-content: flex-start;
+  }
+
+  .row.aln-center {
+      justify-content: center;
+  }
+
+  .row.aln-right {
+      justify-content: flex-end;
+  }
+
+  .row.aln-top {
+      align-items: flex-start;
+  }
+
+  .row.aln-middle {
+      align-items: center;
+  }
+
+  .row.aln-bottom {
+      align-items: flex-end;
+  }
+
+  .row > .imp {
+      order: -1;
+  }
+
+  .row > .col-1 {
+      width: 8.33333%;
+  }
+
+  .row > .off-1 {
+      margin-left: 8.33333%;
+  }
+
+  .row > .col-2 {
+      width: 16.66667%;
+  }
+
+  .row > .off-2 {
+      margin-left: 16.66667%;
+  }
+
+  .row > .col-3 {
+      width: 25%;
+  }
+
+  .row > .off-3 {
+      margin-left: 25%;
+  }
+
+  .row > .col-4 {
+      width: 33.33333%;
+  }
+
+  .row > .off-4 {
+      margin-left: 33.33333%;
+  }
+
+  .row > .col-5 {
+      width: 41.66667%;
+  }
+
+  .row > .off-5 {
+      margin-left: 41.66667%;
+  }
+
+  .row > .col-6 {
+      width: 50%;
+  }
+
+  .row > .off-6 {
+      margin-left: 50%;
+  }
+
+  .row > .col-7 {
+      width: 58.33333%;
+  }
+
+  .row > .off-7 {
+      margin-left: 58.33333%;
+  }
+
+  .row > .col-8 {
+      width: 66.66667%;
+  }
+
+  .row > .off-8 {
+      margin-left: 66.66667%;
+  }
+
+  .row > .col-9 {
+      width: 75%;
+  }
+
+  .row > .off-9 {
+      margin-left: 75%;
+  }
+
+  .row > .col-10 {
+      width: 83.33333%;
+  }
+
+  .row > .off-10 {
+      margin-left: 83.33333%;
+  }
+
+  .row > .col-11 {
+      width: 91.66667%;
+  }
+
+  .row > .off-11 {
+      margin-left: 91.66667%;
+  }
+
+  .row > .col-12 {
+      width: 100%;
+  }
+
+  .row > .off-12 {
+      margin-left: 100%;
+  }
+
+  .row.gtr-0 {
+      margin-top: 0px;
+      margin-left: 0px;
+  }
+
+      .row.gtr-0 > * {
+          padding: 0px 0 0 0px;
+      }
+
+      .row.gtr-0.gtr-uniform {
+          margin-top: 0px;
+      }
+
+          .row.gtr-0.gtr-uniform > * {
+              padding-top: 0px;
+          }
+
+  .row.gtr-25 {
+      margin-top: -6.25px;
+      margin-left: -6.25px;
+  }
+
+      .row.gtr-25 > * {
+          padding: 6.25px 0 0 6.25px;
+      }
+
+      .row.gtr-25.gtr-uniform {
+          margin-top: -6.25px;
+      }
+
+          .row.gtr-25.gtr-uniform > * {
+              padding-top: 6.25px;
+          }
+
+  .row.gtr-50 {
+      margin-top: -12.5px;
+      margin-left: -12.5px;
+  }
+
+      .row.gtr-50 > * {
+          padding: 12.5px 0 0 12.5px;
+      }
+
+      .row.gtr-50.gtr-uniform {
+          margin-top: -12.5px;
+      }
+
+          .row.gtr-50.gtr-uniform > * {
+              padding-top: 12.5px;
+          }
+
+  .row {
+      margin-top: -25px;
+      margin-left: -25px;
+  }
+
+      .row > * {
+          padding: 25px 0 0 25px;
+      }
+
+      .row.gtr-uniform {
+          margin-top: -25px;
+      }
+
+          .row.gtr-uniform > * {
+              padding-top: 25px;
+          }
+
+  .row.gtr-150 {
+      margin-top: -37.5px;
+      margin-left: -37.5px;
+  }
+
+      .row.gtr-150 > * {
+          padding: 37.5px 0 0 37.5px;
+      }
+
+      .row.gtr-150.gtr-uniform {
+          margin-top: -37.5px;
+      }
+
+          .row.gtr-150.gtr-uniform > * {
+              padding-top: 37.5px;
+          }
+
+  .row.gtr-200 {
+      margin-top: -50px;
+      margin-left: -50px;
+  }
+
+      .row.gtr-200 > * {
+          padding: 50px 0 0 50px;
+      }
+
+      .row.gtr-200.gtr-uniform {
+          margin-top: -50px;
+      }
+
+          .row.gtr-200.gtr-uniform > * {
+              padding-top: 50px;
+          }
+
+  @media screen and (max-width: 1680px) {
+
+      .row {
+          display: flex;
+          flex-wrap: wrap;
+          box-sizing: border-box;
+          align-items: stretch;
+      }
+
+          .row > * {
+              box-sizing: border-box;
+          }
+
+          .row.gtr-uniform > * > :last-child {
+              margin-bottom: 0;
+          }
+
+          .row.aln-left {
+              justify-content: flex-start;
+          }
+
+          .row.aln-center {
+              justify-content: center;
+          }
+
+          .row.aln-right {
+              justify-content: flex-end;
+          }
+
+          .row.aln-top {
+              align-items: flex-start;
+          }
+
+          .row.aln-middle {
+              align-items: center;
+          }
+
+          .row.aln-bottom {
+              align-items: flex-end;
+          }
+
+          .row > .imp-xlarge {
+              order: -1;
+          }
+
+          .row > .col-1-xlarge {
+              width: 8.33333%;
+          }
+
+          .row > .off-1-xlarge {
+              margin-left: 8.33333%;
+          }
+
+          .row > .col-2-xlarge {
+              width: 16.66667%;
+          }
+
+          .row > .off-2-xlarge {
+              margin-left: 16.66667%;
+          }
+
+          .row > .col-3-xlarge {
+              width: 25%;
+          }
+
+          .row > .off-3-xlarge {
+              margin-left: 25%;
+          }
+
+          .row > .col-4-xlarge {
+              width: 33.33333%;
+          }
+
+          .row > .off-4-xlarge {
+              margin-left: 33.33333%;
+          }
+
+          .row > .col-5-xlarge {
+              width: 41.66667%;
+          }
+
+          .row > .off-5-xlarge {
+              margin-left: 41.66667%;
+          }
+
+          .row > .col-6-xlarge {
+              width: 50%;
+          }
+
+          .row > .off-6-xlarge {
+              margin-left: 50%;
+          }
+
+          .row > .col-7-xlarge {
+              width: 58.33333%;
+          }
+
+          .row > .off-7-xlarge {
+              margin-left: 58.33333%;
+          }
+
+          .row > .col-8-xlarge {
+              width: 66.66667%;
+          }
+
+          .row > .off-8-xlarge {
+              margin-left: 66.66667%;
+          }
+
+          .row > .col-9-xlarge {
+              width: 75%;
+          }
+
+          .row > .off-9-xlarge {
+              margin-left: 75%;
+          }
+
+          .row > .col-10-xlarge {
+              width: 83.33333%;
+          }
+
+          .row > .off-10-xlarge {
+              margin-left: 83.33333%;
+          }
+
+          .row > .col-11-xlarge {
+              width: 91.66667%;
+          }
+
+          .row > .off-11-xlarge {
+              margin-left: 91.66667%;
+          }
+
+          .row > .col-12-xlarge {
+              width: 100%;
+          }
+
+          .row > .off-12-xlarge {
+              margin-left: 100%;
+          }
+
+          .row.gtr-0 {
+              margin-top: 0px;
+              margin-left: 0px;
+          }
+
+              .row.gtr-0 > * {
+                  padding: 0px 0 0 0px;
+              }
+
+              .row.gtr-0.gtr-uniform {
+                  margin-top: 0px;
+              }
+
+                  .row.gtr-0.gtr-uniform > * {
+                      padding-top: 0px;
+                  }
+
+          .row.gtr-25 {
+              margin-top: -6.25px;
+              margin-left: -6.25px;
+          }
+
+              .row.gtr-25 > * {
+                  padding: 6.25px 0 0 6.25px;
+              }
+
+              .row.gtr-25.gtr-uniform {
+                  margin-top: -6.25px;
+              }
+
+                  .row.gtr-25.gtr-uniform > * {
+                      padding-top: 6.25px;
+                  }
+
+          .row.gtr-50 {
+              margin-top: -12.5px;
+              margin-left: -12.5px;
+          }
+
+              .row.gtr-50 > * {
+                  padding: 12.5px 0 0 12.5px;
+              }
+
+              .row.gtr-50.gtr-uniform {
+                  margin-top: -12.5px;
+              }
+
+                  .row.gtr-50.gtr-uniform > * {
+                      padding-top: 12.5px;
+                  }
+
+          .row {
+              margin-top: -25px;
+              margin-left: -25px;
+          }
+
+              .row > * {
+                  padding: 25px 0 0 25px;
+              }
+
+              .row.gtr-uniform {
+                  margin-top: -25px;
+              }
+
+                  .row.gtr-uniform > * {
+                      padding-top: 25px;
+                  }
+
+          .row.gtr-150 {
+              margin-top: -37.5px;
+              margin-left: -37.5px;
+          }
+
+              .row.gtr-150 > * {
+                  padding: 37.5px 0 0 37.5px;
+              }
+
+              .row.gtr-150.gtr-uniform {
+                  margin-top: -37.5px;
+              }
+
+                  .row.gtr-150.gtr-uniform > * {
+                      padding-top: 37.5px;
+                  }
+
+          .row.gtr-200 {
+              margin-top: -50px;
+              margin-left: -50px;
+          }
+
+              .row.gtr-200 > * {
+                  padding: 50px 0 0 50px;
+              }
+
+              .row.gtr-200.gtr-uniform {
+                  margin-top: -50px;
+              }
+
+                  .row.gtr-200.gtr-uniform > * {
+                      padding-top: 50px;
+                  }
+
+  }
+
+  @media screen and (max-width: 1280px) {
+
+      .row {
+          display: flex;
+          flex-wrap: wrap;
+          box-sizing: border-box;
+          align-items: stretch;
+      }
+
+          .row > * {
+              box-sizing: border-box;
+          }
+
+          .row.gtr-uniform > * > :last-child {
+              margin-bottom: 0;
+          }
+
+          .row.aln-left {
+              justify-content: flex-start;
+          }
+
+          .row.aln-center {
+              justify-content: center;
+          }
+
+          .row.aln-right {
+              justify-content: flex-end;
+          }
+
+          .row.aln-top {
+              align-items: flex-start;
+          }
+
+          .row.aln-middle {
+              align-items: center;
+          }
+
+          .row.aln-bottom {
+              align-items: flex-end;
+          }
+
+          .row > .imp-large {
+              order: -1;
+          }
+
+          .row > .col-1-large {
+              width: 8.33333%;
+          }
+
+          .row > .off-1-large {
+              margin-left: 8.33333%;
+          }
+
+          .row > .col-2-large {
+              width: 16.66667%;
+          }
+
+          .row > .off-2-large {
+              margin-left: 16.66667%;
+          }
+
+          .row > .col-3-large {
+              width: 25%;
+          }
+
+          .row > .off-3-large {
+              margin-left: 25%;
+          }
+
+          .row > .col-4-large {
+              width: 33.33333%;
+          }
+
+          .row > .off-4-large {
+              margin-left: 33.33333%;
+          }
+
+          .row > .col-5-large {
+              width: 41.66667%;
+          }
+
+          .row > .off-5-large {
+              margin-left: 41.66667%;
+          }
+
+          .row > .col-6-large {
+              width: 50%;
+          }
+
+          .row > .off-6-large {
+              margin-left: 50%;
+          }
+
+          .row > .col-7-large {
+              width: 58.33333%;
+          }
+
+          .row > .off-7-large {
+              margin-left: 58.33333%;
+          }
+
+          .row > .col-8-large {
+              width: 66.66667%;
+          }
+
+          .row > .off-8-large {
+              margin-left: 66.66667%;
+          }
+
+          .row > .col-9-large {
+              width: 75%;
+          }
+
+          .row > .off-9-large {
+              margin-left: 75%;
+          }
+
+          .row > .col-10-large {
+              width: 83.33333%;
+          }
+
+          .row > .off-10-large {
+              margin-left: 83.33333%;
+          }
+
+          .row > .col-11-large {
+              width: 91.66667%;
+          }
+
+          .row > .off-11-large {
+              margin-left: 91.66667%;
+          }
+
+          .row > .col-12-large {
+              width: 100%;
+          }
+
+          .row > .off-12-large {
+              margin-left: 100%;
+          }
+
+          .row.gtr-0 {
+              margin-top: 0px;
+              margin-left: 0px;
+          }
+
+              .row.gtr-0 > * {
+                  padding: 0px 0 0 0px;
+              }
+
+              .row.gtr-0.gtr-uniform {
+                  margin-top: 0px;
+              }
+
+                  .row.gtr-0.gtr-uniform > * {
+                      padding-top: 0px;
+                  }
+
+          .row.gtr-25 {
+              margin-top: -6.25px;
+              margin-left: -6.25px;
+          }
+
+              .row.gtr-25 > * {
+                  padding: 6.25px 0 0 6.25px;
+              }
+
+              .row.gtr-25.gtr-uniform {
+                  margin-top: -6.25px;
+              }
+
+                  .row.gtr-25.gtr-uniform > * {
+                      padding-top: 6.25px;
+                  }
+
+          .row.gtr-50 {
+              margin-top: -12.5px;
+              margin-left: -12.5px;
+          }
+
+              .row.gtr-50 > * {
+                  padding: 12.5px 0 0 12.5px;
+              }
+
+              .row.gtr-50.gtr-uniform {
+                  margin-top: -12.5px;
+              }
+
+                  .row.gtr-50.gtr-uniform > * {
+                      padding-top: 12.5px;
+                  }
+
+          .row {
+              margin-top: -25px;
+              margin-left: -25px;
+          }
+
+              .row > * {
+                  padding: 25px 0 0 25px;
+              }
+
+              .row.gtr-uniform {
+                  margin-top: -25px;
+              }
+
+                  .row.gtr-uniform > * {
+                      padding-top: 25px;
+                  }
+
+          .row.gtr-150 {
+              margin-top: -37.5px;
+              margin-left: -37.5px;
+          }
+
+              .row.gtr-150 > * {
+                  padding: 37.5px 0 0 37.5px;
+              }
+
+              .row.gtr-150.gtr-uniform {
+                  margin-top: -37.5px;
+              }
+
+                  .row.gtr-150.gtr-uniform > * {
+                      padding-top: 37.5px;
+                  }
+
+          .row.gtr-200 {
+              margin-top: -50px;
+              margin-left: -50px;
+          }
+
+              .row.gtr-200 > * {
+                  padding: 50px 0 0 50px;
+              }
+
+              .row.gtr-200.gtr-uniform {
+                  margin-top: -50px;
+              }
+
+                  .row.gtr-200.gtr-uniform > * {
+                      padding-top: 50px;
+                  }
+
+  }
+
+  @media screen and (max-width: 980px) {
+
+      .row {
+          display: flex;
+          flex-wrap: wrap;
+          box-sizing: border-box;
+          align-items: stretch;
+      }
+
+          .row > * {
+              box-sizing: border-box;
+          }
+
+          .row.gtr-uniform > * > :last-child {
+              margin-bottom: 0;
+          }
+
+          .row.aln-left {
+              justify-content: flex-start;
+          }
+
+          .row.aln-center {
+              justify-content: center;
+          }
+
+          .row.aln-right {
+              justify-content: flex-end;
+          }
+
+          .row.aln-top {
+              align-items: flex-start;
+          }
+
+          .row.aln-middle {
+              align-items: center;
+          }
+
+          .row.aln-bottom {
+              align-items: flex-end;
+          }
+
+          .row > .imp-medium {
+              order: -1;
+          }
+
+          .row > .col-1-medium {
+              width: 8.33333%;
+          }
+
+          .row > .off-1-medium {
+              margin-left: 8.33333%;
+          }
+
+          .row > .col-2-medium {
+              width: 16.66667%;
+          }
+
+          .row > .off-2-medium {
+              margin-left: 16.66667%;
+          }
+
+          .row > .col-3-medium {
+              width: 25%;
+          }
+
+          .row > .off-3-medium {
+              margin-left: 25%;
+          }
+
+          .row > .col-4-medium {
+              width: 33.33333%;
+          }
+
+          .row > .off-4-medium {
+              margin-left: 33.33333%;
+          }
+
+          .row > .col-5-medium {
+              width: 41.66667%;
+          }
+
+          .row > .off-5-medium {
+              margin-left: 41.66667%;
+          }
+
+          .row > .col-6-medium {
+              width: 50%;
+          }
+
+          .row > .off-6-medium {
+              margin-left: 50%;
+          }
+
+          .row > .col-7-medium {
+              width: 58.33333%;
+          }
+
+          .row > .off-7-medium {
+              margin-left: 58.33333%;
+          }
+
+          .row > .col-8-medium {
+              width: 66.66667%;
+          }
+
+          .row > .off-8-medium {
+              margin-left: 66.66667%;
+          }
+
+          .row > .col-9-medium {
+              width: 75%;
+          }
+
+          .row > .off-9-medium {
+              margin-left: 75%;
+          }
+
+          .row > .col-10-medium {
+              width: 83.33333%;
+          }
+
+          .row > .off-10-medium {
+              margin-left: 83.33333%;
+          }
+
+          .row > .col-11-medium {
+              width: 91.66667%;
+          }
+
+          .row > .off-11-medium {
+              margin-left: 91.66667%;
+          }
+
+          .row > .col-12-medium {
+              width: 100%;
+          }
+
+          .row > .off-12-medium {
+              margin-left: 100%;
+          }
+
+          .row.gtr-0 {
+              margin-top: 0px;
+              margin-left: 0px;
+          }
+
+              .row.gtr-0 > * {
+                  padding: 0px 0 0 0px;
+              }
+
+              .row.gtr-0.gtr-uniform {
+                  margin-top: 0px;
+              }
+
+                  .row.gtr-0.gtr-uniform > * {
+                      padding-top: 0px;
+                  }
+
+          .row.gtr-25 {
+              margin-top: -6.25px;
+              margin-left: -6.25px;
+          }
+
+              .row.gtr-25 > * {
+                  padding: 6.25px 0 0 6.25px;
+              }
+
+              .row.gtr-25.gtr-uniform {
+                  margin-top: -6.25px;
+              }
+
+                  .row.gtr-25.gtr-uniform > * {
+                      padding-top: 6.25px;
+                  }
+
+          .row.gtr-50 {
+              margin-top: -12.5px;
+              margin-left: -12.5px;
+          }
+
+              .row.gtr-50 > * {
+                  padding: 12.5px 0 0 12.5px;
+              }
+
+              .row.gtr-50.gtr-uniform {
+                  margin-top: -12.5px;
+              }
+
+                  .row.gtr-50.gtr-uniform > * {
+                      padding-top: 12.5px;
+                  }
+
+          .row {
+              margin-top: -25px;
+              margin-left: -25px;
+          }
+
+              .row > * {
+                  padding: 25px 0 0 25px;
+              }
+
+              .row.gtr-uniform {
+                  margin-top: -25px;
+              }
+
+                  .row.gtr-uniform > * {
+                      padding-top: 25px;
+                  }
+
+          .row.gtr-150 {
+              margin-top: -37.5px;
+              margin-left: -37.5px;
+          }
+
+              .row.gtr-150 > * {
+                  padding: 37.5px 0 0 37.5px;
+              }
+
+              .row.gtr-150.gtr-uniform {
+                  margin-top: -37.5px;
+              }
+
+                  .row.gtr-150.gtr-uniform > * {
+                      padding-top: 37.5px;
+                  }
+
+          .row.gtr-200 {
+              margin-top: -50px;
+              margin-left: -50px;
+          }
+
+              .row.gtr-200 > * {
+                  padding: 50px 0 0 50px;
+              }
+
+              .row.gtr-200.gtr-uniform {
+                  margin-top: -50px;
+              }
+
+                  .row.gtr-200.gtr-uniform > * {
+                      padding-top: 50px;
+                  }
+
+  }
+
+  @media screen and (max-width: 736px) {
+
+      .row {
+          display: flex;
+          flex-wrap: wrap;
+          box-sizing: border-box;
+          align-items: stretch;
+      }
+
+          .row > * {
+              box-sizing: border-box;
+          }
+
+          .row.gtr-uniform > * > :last-child {
+              margin-bottom: 0;
+          }
+
+          .row.aln-left {
+              justify-content: flex-start;
+          }
+
+          .row.aln-center {
+              justify-content: center;
+          }
+
+          .row.aln-right {
+              justify-content: flex-end;
+          }
+
+          .row.aln-top {
+              align-items: flex-start;
+          }
+
+          .row.aln-middle {
+              align-items: center;
+          }
+
+          .row.aln-bottom {
+              align-items: flex-end;
+          }
+
+          .row > .imp-small {
+              order: -1;
+          }
+
+          .row > .col-1-small {
+              width: 8.33333%;
+          }
+
+          .row > .off-1-small {
+              margin-left: 8.33333%;
+          }
+
+          .row > .col-2-small {
+              width: 16.66667%;
+          }
+
+          .row > .off-2-small {
+              margin-left: 16.66667%;
+          }
+
+          .row > .col-3-small {
+              width: 25%;
+          }
+
+          .row > .off-3-small {
+              margin-left: 25%;
+          }
+
+          .row > .col-4-small {
+              width: 33.33333%;
+          }
+
+          .row > .off-4-small {
+              margin-left: 33.33333%;
+          }
+
+          .row > .col-5-small {
+              width: 41.66667%;
+          }
+
+          .row > .off-5-small {
+              margin-left: 41.66667%;
+          }
+
+          .row > .col-6-small {
+              width: 50%;
+          }
+
+          .row > .off-6-small {
+              margin-left: 50%;
+          }
+
+          .row > .col-7-small {
+              width: 58.33333%;
+          }
+
+          .row > .off-7-small {
+              margin-left: 58.33333%;
+          }
+
+          .row > .col-8-small {
+              width: 66.66667%;
+          }
+
+          .row > .off-8-small {
+              margin-left: 66.66667%;
+          }
+
+          .row > .col-9-small {
+              width: 75%;
+          }
+
+          .row > .off-9-small {
+              margin-left: 75%;
+          }
+
+          .row > .col-10-small {
+              width: 83.33333%;
+          }
+
+          .row > .off-10-small {
+              margin-left: 83.33333%;
+          }
+
+          .row > .col-11-small {
+              width: 91.66667%;
+          }
+
+          .row > .off-11-small {
+              margin-left: 91.66667%;
+          }
+
+          .row > .col-12-small {
+              width: 100%;
+          }
+
+          .row > .off-12-small {
+              margin-left: 100%;
+          }
+
+          .row.gtr-0 {
+              margin-top: 0px;
+              margin-left: 0px;
+          }
+
+              .row.gtr-0 > * {
+                  padding: 0px 0 0 0px;
+              }
+
+              .row.gtr-0.gtr-uniform {
+                  margin-top: 0px;
+              }
+
+                  .row.gtr-0.gtr-uniform > * {
+                      padding-top: 0px;
+                  }
+
+          .row.gtr-25 {
+              margin-top: -3.75px;
+              margin-left: -3.75px;
+          }
+
+              .row.gtr-25 > * {
+                  padding: 3.75px 0 0 3.75px;
+              }
+
+              .row.gtr-25.gtr-uniform {
+                  margin-top: -3.75px;
+              }
+
+                  .row.gtr-25.gtr-uniform > * {
+                      padding-top: 3.75px;
+                  }
+
+          .row.gtr-50 {
+              margin-top: -7.5px;
+              margin-left: -7.5px;
+          }
+
+              .row.gtr-50 > * {
+                  padding: 7.5px 0 0 7.5px;
+              }
+
+              .row.gtr-50.gtr-uniform {
+                  margin-top: -7.5px;
+              }
+
+                  .row.gtr-50.gtr-uniform > * {
+                      padding-top: 7.5px;
+                  }
+
+          .row {
+              margin-top: -15px;
+              margin-left: -15px;
+          }
+
+              .row > * {
+                  padding: 15px 0 0 15px;
+              }
+
+              .row.gtr-uniform {
+                  margin-top: -15px;
+              }
+
+                  .row.gtr-uniform > * {
+                      padding-top: 15px;
+                  }
+
+          .row.gtr-150 {
+              margin-top: -22.5px;
+              margin-left: -22.5px;
+          }
+
+              .row.gtr-150 > * {
+                  padding: 22.5px 0 0 22.5px;
+              }
+
+              .row.gtr-150.gtr-uniform {
+                  margin-top: -22.5px;
+              }
+
+                  .row.gtr-150.gtr-uniform > * {
+                      padding-top: 22.5px;
+                  }
+
+          .row.gtr-200 {
+              margin-top: -30px;
+              margin-left: -30px;
+          }
+
+              .row.gtr-200 > * {
+                  padding: 30px 0 0 30px;
+              }
+
+              .row.gtr-200.gtr-uniform {
+                  margin-top: -30px;
+              }
+
+                  .row.gtr-200.gtr-uniform > * {
+                      padding-top: 30px;
+                  }
+
+  }
+
+/* Form */
+
+form label {
+  color: #3e3e3e;
+  font-weight: 700;
+  display: block;
+  margin: 0 0 0.5em 0;
+}
+
+form input[type=text],
+form input[type=email],
+form input[type=password],
+form select,
+form textarea {
+  -moz-transition: background .2s ease-in-out, box-shadow .2s ease-in-out;
+  -webkit-transition: background .2s ease-in-out, box-shadow .2s ease-in-out;
+  -ms-transition: background .2s ease-in-out, box-shadow .2s ease-in-out;
+  transition: background .2s ease-in-out, box-shadow .2s ease-in-out;
+  -webkit-appearance: none;
+  display: block;
+  border: 0;
+  padding: 0.75em;
+  font-size: 1em;
+  border-radius: 8px;
+  border: solid 1px #ddd;
+  background: #fff;
+  color: #bbb;
+  box-shadow: inset 0px 2px 3px 1px rgba(0, 0, 0, 0.05), 0px 1px 0px 0px rgba(255, 255, 255, 0.025);
+  width: 100%;
+}
+
+  form input[type=text]:focus,
+  form input[type=email]:focus,
+  form input[type=password]:focus,
+  form select:focus,
+  form textarea:focus {
+      background: #fafafa;
+      box-shadow: inset 0px 2px 5px 0px rgba(0, 0, 0, 0.05), 0px 1px 0px 0px rgba(255, 255, 255, 0.025), inset 0px 0px 2px 1px #43bff0;
+  }
+
+form textarea {
+  height: 15em;
+}
+/* Form - Responsive Updates */
+form input[type=text],
+form input[type=email],
+form input[type=password],
+form select,
+form textarea {
+  max-width: 100%; /* Prevent inputs from exceeding the container width */
+  width: calc(100% - 2em); /* Add slight inner padding */
+  box-sizing: border-box; /* Include padding and border in the total width */
+  margin: 0; /* Remove unintended margins */
+  padding: 0.75em; /* Maintain consistent padding */
+}
+/* Modal Container */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4); /* Black background with opacity */
+  align-items: center;
+  justify-content: center;
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fff;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  width: 300px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  position: relative; /* Position relative for the close button */
+}
+
+
+
+/* Close Button */
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  color: #aaa;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.close-button:hover {
+  color: #333;
+}
+
+form .actions:last-child {
+  margin-bottom: 0;
+}
+
+form ::-webkit-input-placeholder {
+  color: #555 !important;
+}
+
+form :-moz-placeholder {
+  color: #555 !important;
+}
+
+form ::-moz-placeholder {
+  color: #555 !important;
+}
+
+form :-ms-input-placeholder {
+  color: #555 !important;
+}
+
+form ::-moz-focus-inner {
+  border: 0;
+}
+
+/* Tables */
+
+table {
+  width: 100%;
+}
+
+  table.default {
+      width: 100%;
+  }
+
+      table.default tr {
+          border-top: solid 1px #eee;
+      }
+
+          table.default tr:first-child {
+              border-top: 0;
+          }
+
+      table.default td {
+          padding: 0.5em 1em 0.5em 1em;
+      }
+
+      table.default th {
+          text-align: left;
+          padding: 0.5em 1em 0.5em 1em;
+          font-weight: 600;
+          margin: 0 0 1em 0;
+      }
+
+      table.default thead {
+          background: #4f4f4f;
+          color: #fff;
+      }
+
+
+
+/* Button */
+
+input[type="button"],
+input[type="submit"],
+input[type="reset"],
+button,
+.button {
+  background-image: url("images/bg.png"), -moz-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
+  background-image: url("images/bg.png"), -webkit-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
+  background-image: url("images/bg.png"), -ms-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
+  background-image: url("images/bg.png"), linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
+  -moz-transition: background-color .2s ease-in-out;
+  -webkit-transition: background-color .2s ease-in-out;
+  -ms-transition: background-color .2s ease-in-out;
+  transition: background-color .2s ease-in-out;
+  -webkit-appearance: none;
+  position: relative;
+  display: inline-block;
+  color: #fff !important;
+  text-decoration: none;
+  font-weight: 700;
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+  border-radius: 8px;
+  text-shadow: -1px -1px 0.5px rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+  box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.5), inset 0px 2px 1px 0px rgba(255, 255, 255, 0.75);
+  background-color: #d51a1a;
+  padding: 1em 2.35em 1em 2.35em;
+  font-size: 1.1em;
+  max-width: 24em;
+}
+
+  input[type="button"]:hover,
+  input[type="submit"]:hover,
+  input[type="reset"]:hover,
+  button:hover,
+  .button:hover {
+      background-color: #32CD32;
+      color: #fff !important;
+  }
+
+  input[type="button"]:active,
+  input[type="submit"]:active,
+  input[type="reset"]:active,
+  button:active,
+  .button:active {
+      background-color: #3dBA8D3;
+      top: 1px;
+  }
+
+  input[type="button"].large,
+  input[type="submit"].large,
+  input[type="reset"].large,
+  button.large,
+  .button.large {
+      font-size: 1.5em;
+      letter-spacing: -0.025em;
+  }
+
+  input[type="button"].alt,
+  input[type="submit"].alt,
+  input[type="reset"].alt,
+  button.alt,
+  .button.alt {
+      background-color: #444;
+      box-shadow: inset 0px 0px 0px 1px #242424, inset 0px 2px 1px 0px rgba(255, 255, 255, 0.2);
+  }
+
+      input[type="button"].alt:hover,
+      input[type="submit"].alt:hover,
+      input[type="reset"].alt:hover,
+      button.alt:hover,
+      .button.alt:hover {
+          background-color: #4f4f4f;
+          color: #fff !important;
+      }
+
+      input[type="button"].alt:active,
+      input[type="submit"].alt:active,
+      input[type="reset"].alt:active,
+      button.alt:active,
+      .button.alt:active {
+          background-color: #3f3f3f;
+      }
+
+/* List */
+
+ul {
+  list-style: disc;
+  padding-left: 1em;
+}
+
+  ul li {
+      padding-left: 0.5em;
+  }
+
+ol {
+  list-style: decimal;
+  padding-left: 1.25em;
+}
+
+  ol li {
+      padding-left: 0.25em;
+  }
+
+/* Social */
+
+ul.social {
+  cursor: default;
+  margin: 0;
+  list-style: none;
+  padding-left: 0;
+}
+
+  ul.social li {
+      position: relative;
+      display: inline-block;
+      margin: 0.25em;
+      top: 0;
+      padding-left: 0;
+  }
+
+      ul.social li a {
+          -moz-transition: top .2s ease-in-out;
+          -webkit-transition: top .2s ease-in-out;
+          -ms-transition: top .2s ease-in-out;
+          transition: top .2s ease-in-out;
+          display: block;
+          width: 48px;
+          height: 48px;
+          border-radius: 6px;
+          top: 0;
+          position: relative;
+      }
+
+          ul.social li a:before {
+              background-image: url("images/bg.png"), -moz-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
+              background-image: url("images/bg.png"), -webkit-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
+              background-image: url("images/bg.png"), -ms-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
+              background-image: url("images/bg.png"), linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
+              -moz-transition: background-color .2s ease-in-out;
+              -webkit-transition: background-color .2s ease-in-out;
+              -ms-transition: background-color .2s ease-in-out;
+              transition: background-color .2s ease-in-out;
+              background-color: #444;
+              border-radius: 6px;
+              box-shadow: inset 0px 0px 0px 1px #282828, inset 0px 2px 1px 0px rgba(255, 255, 255, 0.1);
+              color: #2E2E2E !important;
+              display: block;
+              font-size: 26px;
+              height: 48px;
+              line-height: 48px;
+              text-align: center;
+              outline: 0;
+              overflow: hidden;
+              text-shadow: 1px 1px 0px rgba(255, 255, 255, 0.1);
+              width: 48px;
+          }
+
+          ul.social li a.fa-twitter {
+              background-color: #2DAAE4;
+          }
+
+          ul.social li a.fa-facebook-f {
+              background-color: #3C5A98;
+          }
+
+          ul.social li a.fa-dribbble {
+              background-color: #C4376B;
+          }
+
+          ul.social li a.fa-linkedin-in {
+              background-color: #006599;
+          }
+
+          ul.social li a.fa-tumblr {
+              background-color: #51718A;
+          }
+
+          ul.social li a.fa-google-plus {
+              background-color: #DA2713;
+          }
+
+          ul.social li a.fa-github {
+              background-color: #FAFAFA;
+          }
+
+          ul.social li a.fa-rss {
+              background-color: #F2600B;
+          }
+
+          ul.social li a.fa-instagram {
+              background-color: #E0D7C8;
+          }
+
+          ul.social li a.fa-foursquare {
+              background-color: #39A3D4;
+          }
+
+          ul.social li a.fa-skype {
+              background-color: #10BEF1;
+          }
+
+          ul.social li a.fa-soundcloud {
+              background-color: #FE5419;
+          }
+
+          ul.social li a.fa-youtube {
+              background-color: #BF2E25;
+          }
+
+          ul.social li a.fa-blogger {
+              background-color: #FF6501;
+          }
+
+          ul.social li a.fa-flickr {
+              background-color: #0062DB;
+          }
+
+          ul.social li a.fa-vimeo {
+              background-color: #4C8AB0;
+          }
+
+          ul.social li a:hover {
+              top: -5px;
+          }
+
+              ul.social li a:hover:before {
+                  background-color: transparent;
+              }
+
+/* Actions */
+
+ul.actions {
+  list-style: none;
+  padding-left: 0;
+}
+
+  ul.actions li {
+      display: inline-block;
+      margin: 0 0 0 1em;
+      padding-left: 0;
+  }
+
+      ul.actions li:first-child {
+          margin-left: 0;
+      }
+
+/* Box */
+
+.box {
+  background: #fff;
+  box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.15), 0px 2px 3px 0px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  padding: 2em;
+}
+
+  .box.style1 {
+      padding: 3em 2em 3.5em 2em;
+  }
+
+      .box.style1 h3 {
+          margin-bottom: 0.5em;
+      }
+
+  .box.style2 h3 {
+      margin-bottom: 0.25em;
+  }
+
+  .box.style2 .image {
+      position: relative;
+      left: 2em;
+      top: 2em;
+      margin: -4em 0 4em -4em;
+      width: auto;
+  }
+
+/* Icons */
+
+.icon {
+  text-decoration: none;
+  text-decoration: none;
+}
+
+  .icon:before {
+      -moz-osx-font-smoothing: grayscale;
+      -webkit-font-smoothing: antialiased;
+      display: inline-block;
+      font-style: normal;
+      font-variant: normal;
+      text-rendering: auto;
+      line-height: 1;
+      text-transform: none !important;
+      font-family: 'Font Awesome 5 Free';
+      font-weight: 400;
+  }
+
+  .icon:before {
+      font-size: 1.25em;
+  }
+
+  .icon > .label {
+      display: none;
+  }
+
+  .icon.solid:before {
+      font-weight: 900;
+  }
+
+  .icon.brands:before {
+      font-family: 'Font Awesome 5 Brands';
+  }
+
+  .icon.featured {
+      color: #EA8A95;
+      display: block;
+      margin: 0 0 1.5em 0;
+      cursor: default;
+  }
+
+      .icon.featured:before {
+          font-size: 6em;
+      }
+
+/* Wrappers */
+
+.wrapper {
+  background-image: url("images/bg.png");
+  box-shadow: inset 0px 1px 0px 0px rgba(0, 0, 0, 0.05), inset 0px 2px 3px 0px rgba(0, 0, 0, 0.1);
+  padding: 8em 0 8em 0;
+  text-align: center;
+}
+
+  .wrapper.style1 {
+      background-image: none;
+      background-color: #fff;
+  }
+
+  .wrapper.style2 {
+      background-color: #fafafa;
+      text-shadow: 1px 1px 0px #fff;
+  }
+
+  .wrapper.style3 {
+      background-color: #f4f4f4;
+      text-shadow: 1px 1px 0px #fff;
+  }
+
+  .wrapper.style4 {
+      background-color: #323232;
+      color: #ffffff;
+      text-shadow: -1px -1px 0px #181818;
+  }
+
+      .wrapper.style4 h1, .wrapper.style4 h2, .wrapper.style4 h3, .wrapper.style4 h4, .wrapper.style4 h5, .wrapper.style4 h6 {
+          color: #fff;
+      }
+
+      .wrapper.style4 h2 {
+          margin-top: -90px;
+      }
+
+
+      .wrapper.style4 form input[type=text],
+      .wrapper.style4 form input[type=password],
+      .wrapper.style4 form select,
+      .wrapper.style4 form textarea {
+          border: none;
+          background: #282828;
+      }
+
+          .wrapper.style4 form input[type=text]:focus,
+          .wrapper.style4 form input[type=password]:focus,
+          .wrapper.style4 form select:focus,
+          .wrapper.style4 form textarea:focus {
+              background: #252525;
+          }
+/* Center input fields on mobile */
+@media screen and (max-width: 768px) {
+  .row {
+    justify-content: center;
+  }
+
+  .col-6, .col-12 {
+    max-width: 100%;
+    text-align: center;
+  }
+
+  form input[type="text"],
+  form textarea {
+    margin: 0 auto;
+    display: block;
+    width: 90%; /* Adjust the width for better responsiveness */
+  }
+
+  form .actions {
+    justify-content: center;
+  }
+
+  form ul.actions li {
+    text-align: center;
+  }
+}
+
+/* Footer Container Styling */
+footer p {
+    color: #ddd; /* Subtle light gray for text */
+    font-size: 14px; /* Slightly smaller text */
+    text-align: center;
+    margin-top: 20px;
+    line-height: 1.5; /* Better readability */
+  }
+  
+  /* Email and Phone Link Styling */
+  footer a.email-link,
+  footer a.phone-link {
+    color: #fff; /* Bright white for contrast */
+    text-decoration: none; /* Remove underline */
+    font-weight: bold; /* Emphasize links */
+    background: linear-gradient(145deg, #444, #222); /* Subtle gradient for modern feel */
+    padding: 10px 15px; /* Padding around the text */
+    border-radius: 5px; /* Rounded corners for buttons */
+    display: inline-block; /* Makes links appear like buttons */
+    transition: all 0.3s ease; /* Smooth transition for hover effect */
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2); /* Button shadow for depth */
+  }
+  
+  /* Hover Effect for Email and Phone Links */
+  footer a.email-link:hover,
+  footer a.phone-link:hover {
+    background: #555; /* Slightly lighter background on hover */
+    color: #43bff0; /* Subtle blue hover color */
+    transform: scale(1.05); /* Slight zoom effect */
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.3); /* Enhanced shadow on hover */
+  }
+  
+  footer a.phone-link {
+    margin-bottom: 20px;
+  }
+  /* City and Design Text Styling */
+  footer p span {
+    display: block;
+    color: #999; /* Subtle gray for supporting text */
+    font-style: italic; /* Italicized for differentiation */
+    margin-top: 10px;
+  }
+  
+  /* Footer Divider Styling */
+  footer hr {
+    border: none;
+    height: 1px;
+    background: #444; /* Subtle divider */
+    margin: 15px 0;
+  }
+
+
+  /* Modal Container */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4); /* Black background with opacity */
+  align-items: center;
+  justify-content: center;
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #333;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  width: 300px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  position: relative; /* Position relative for the close button */
+}
+/* Section Titles with Unique Selectors */
+.section-title548,
+.section-title739,
+.section-title124,
+.section-title567,
+.section-title839,
+.section-title321,
+.section-title982,
+.section-title763,
+.section-title654,
+.section-title839 {
+  font-size: 28px;
+  text-align: center;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  color: #000;
+}
+
+/* Tables Styling */
+.critical-table739,
+.asset-table321,
+.prioritization-table763 {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.critical-table739 th,
+.critical-table739 td,
+.asset-table321 th,
+.asset-table321 td,
+.prioritization-table763 th,
+.prioritization-table763 td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: left;
+}
+
+.critical-table739 th,
+.asset-table321 th,
+.prioritization-table763 th {
+  background-color: #f2f2f2;
+  color: #333;
+}
+
+/* Chart Containers */
+.chart-container124,
+.heatmap-container839,
+.distribution-chart-container982 {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Flowchart Image */
+.flowchart567 {
+  width: 100%;
+  max-width: 600px;
+  display: block;
+  margin: 0 auto;
+}
+
+/* Decorative Icons */
+.decorative-icon548 {
+  font-size: 50px;
+  color: #d51a1a;
+}
+
+/* Buttons */
+.learn-more-btn839 {
+  background-color: #000;
+  color: #fff;
+  border: none;
+  padding: 12px 28px;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.learn-more-btn839:hover {
+  background-color: #333;
+  transform: scale(1.05);
+}
+
+/* Responsive Tables with Inline Scroll */
+@media (max-width: 768px) {
+  /* Adjust padding and font size for better readability */
+  .critical-table739 th,
+  .critical-table739 td,
+  .asset-table321 th,
+  .asset-table321 td,
+  .prioritization-table763 th,
+  .prioritization-table763 td {
+    padding: 8px;
+    font-size: 14px;
+  }
+
+  /* Enable horizontal scrolling for tables */
+  .critical-table739,
+  .asset-table321,
+  .prioritization-table763 {
+    display: block;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    width: 100%;
+  }
+
+  /* Prevent text wrapping within table cells */
+  .critical-table739 th,
+  .critical-table739 td,
+  .asset-table321 th,
+  .asset-table321 td,
+  .prioritization-table763 th,
+  .prioritization-table763 td {
+    white-space: nowrap;
+  }
+}
