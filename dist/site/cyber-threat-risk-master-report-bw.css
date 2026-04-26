@@ -1,0 +1,100 @@
+@import url("cyber-threat-risk-master-report.css");
+
+:root {
+  --ink: #111111;
+  --muted: #444444;
+  --paper: #ffffff;
+  --panel: #ffffff;
+  --line: #bdbdbd;
+  --blue: #111111;
+  --teal: #111111;
+  --green: #111111;
+  --amber: #111111;
+  --red: #111111;
+  --navy: #111111;
+}
+
+body {
+  background: #ffffff;
+}
+
+.report-shell {
+  box-shadow: none;
+}
+
+.title-page {
+  color: #111111;
+  background: #ffffff;
+  border-bottom: 2px solid #111111;
+}
+
+.title-page .eyebrow,
+.eyebrow,
+.kicker,
+.title-chip,
+.title-stat,
+.card,
+.metric,
+.finding,
+.callout,
+.band,
+.toc-grid a {
+  color: #111111;
+  background: #ffffff;
+  border-color: #111111;
+}
+
+.subtitle,
+.title-stat span,
+.lead,
+.note,
+.caption,
+.metric span {
+  color: #333333;
+}
+
+.title-stat {
+  border-left-color: #111111;
+}
+
+.metric {
+  border-top-color: #111111;
+}
+
+.callout,
+.finding,
+.finding.critical,
+.finding.high,
+.finding.medium,
+.finding.low {
+  border-left-color: #111111;
+}
+
+th {
+  color: #ffffff;
+  background: #111111;
+}
+
+tbody tr:nth-child(even) {
+  background: #f2f2f2;
+}
+
+.risk-critical,
+.risk-high,
+.risk-medium,
+.risk-low,
+.status {
+  color: #ffffff;
+  background: #111111;
+  border: 1px solid #111111;
+}
+
+.figure img {
+  filter: grayscale(1) contrast(1.1);
+  border-color: #111111;
+}
+
+.steps li::before {
+  color: #ffffff;
+  background: #111111;
+}

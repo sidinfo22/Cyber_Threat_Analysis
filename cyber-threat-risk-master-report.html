@@ -1,0 +1,848 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Summit Care Medical Clinic Cyber Threat Analysis & Risk Assessment Master Report</title>
+    <link rel="stylesheet" href="cyber-threat-risk-master-report.css" />
+    <link rel="stylesheet" href="cyber-threat-risk-master-report-bw.css" media="print" />
+  </head>
+  <body>
+    <main class="report-shell">
+      <section class="title-page" id="top">
+        <div>
+          <span class="eyebrow">Cybersecurity Master Report</span>
+          <h1>Summit Care Medical Clinic Cyber Threat Analysis & Risk Assessment</h1>
+          <p class="subtitle">
+            A complete rebranded security portfolio document combining the Summit Care
+            healthcare network blueprint with the prior cyber threat analysis project.
+            This report presents a realistic, sanitized assessment of penetration testing,
+            vulnerability management, HIPAA-aware controls, third-party risk, audit
+            evidence, incident response, and remediation planning for a mock medical clinic
+            network.
+          </p>
+          <div class="title-meta">
+            <span class="title-chip">Penetration Testing</span>
+            <span class="title-chip">Risk Assessments</span>
+            <span class="title-chip">HIPAA Security Rule Alignment</span>
+            <span class="title-chip">By Sidiq Daniel</span>
+            <a class="title-chip" href="summit-care-cyber-threat-risk-master-report-black-white.pdf">Black & White PDF</a>
+            <a class="title-chip" href="summit-care-cyber-threat-risk-master-report.pdf">Color PDF</a>
+          </div>
+        </div>
+        <div class="title-grid">
+          <div class="title-stat">
+            <strong>10.7.0.0/16</strong>
+            <span>Sanitized Summit Care private network model</span>
+          </div>
+          <div class="title-stat">
+            <strong>6</strong>
+            <span>NIST CSF 2.0 functions used for mapping</span>
+          </div>
+          <div class="title-stat">
+            <strong>12</strong>
+            <span>Representative findings and audit scenarios</span>
+          </div>
+          <div class="title-stat">
+            <strong>90 days</strong>
+            <span>Priority remediation roadmap</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="toc">
+        <span class="kicker">Document Index</span>
+        <h2>Table Of Contents</h2>
+        <div class="toc-grid">
+          <a href="#executive-summary">1. Executive Summary</a>
+          <a href="#engagement-profile">2. Engagement Profile</a>
+          <a href="#environment">3. Summit Care Environment</a>
+          <a href="#methodology">4. Methodology</a>
+          <a href="#asset-classification">5. Asset & Data Classification</a>
+          <a href="#threat-model">6. Threat Model</a>
+          <a href="#pentest">7. Penetration Testing Narrative</a>
+          <a href="#risk-register">8. Risk Register</a>
+          <a href="#hipaa">9. HIPAA & Compliance Alignment</a>
+          <a href="#third-party">10. Third-Party Audit Program</a>
+          <a href="#monitoring">11. Monitoring & Routine Auditing</a>
+          <a href="#incident-response">12. Incident Response & Recovery</a>
+          <a href="#roadmap">13. Remediation Roadmap</a>
+          <a href="#appendix">14. Evidence & References</a>
+        </div>
+      </section>
+
+      <section class="section" id="executive-summary">
+        <span class="kicker">Executive Summary</span>
+        <h2>Security Assessment Summary For Reviewers</h2>
+        <p class="lead">
+          This master report reframes the existing Summit Care Medical Clinic network
+          architecture into a cybersecurity assessment deliverable. The goal is to show the
+          full security workflow: understanding the business environment, identifying
+          critical healthcare assets, testing realistic attack paths, ranking risk,
+          recommending controls, documenting HIPAA-aware safeguards, and preparing the
+          organization for continuous improvement.
+        </p>
+        <p>
+          Summit Care is a fictionalized healthcare clinic used to protect real client
+          identities while preserving the technical substance of infrastructure and security
+          work. The environment includes segmented clinical, administrative, billing, voice,
+          wireless, and guest networks; Microsoft identity services; endpoint standards;
+          network monitoring; backup planning; and hybrid cloud collaboration through
+          Microsoft 365 and Entra-connected services.
+        </p>
+        <div class="grid-4">
+          <div class="metric">
+            <strong>High</strong>
+            <span>Top residual risk: exposed management and weak administrative access paths</span>
+          </div>
+          <div class="metric">
+            <strong>Critical</strong>
+            <span>Protected health information and billing systems are crown-jewel assets</span>
+          </div>
+          <div class="metric">
+            <strong>Moderate</strong>
+            <span>Overall maturity after segmentation, MFA, backups, and monitoring baseline</span>
+          </div>
+          <div class="metric">
+            <strong>Continuous</strong>
+            <span>Quarterly testing and recurring audit cadence recommended</span>
+          </div>
+        </div>
+        <div class="callout">
+          <strong>Portfolio positioning:</strong> This report demonstrates cybersecurity
+          analysis, risk assessment, audit documentation, penetration testing workflow,
+          technical writing, healthcare compliance awareness, and security governance in
+          one organized master document.
+        </div>
+      </section>
+
+      <section class="section" id="engagement-profile">
+        <span class="kicker">Engagement Profile</span>
+        <h2>Scope, Assumptions, And Rules Of Engagement</h2>
+        <p class="lead">
+          The assessment was modeled as an authorized internal security review for a small
+          healthcare office preparing for stronger network governance and HIPAA Security
+          Rule alignment. Testing scenarios are written as controlled simulations and
+          sanitized examples, not instructions for unauthorized activity.
+        </p>
+        <div class="grid-2">
+          <div class="card">
+            <h4>In Scope</h4>
+            <ul>
+              <li>Clinical systems, EMR-facing servers, billing applications, admin workstations, and shared services.</li>
+              <li>Firewall rules, VLAN segmentation, wireless access, VPN access, DNS, DHCP, AD, NPS/RADIUS, and endpoint posture.</li>
+              <li>HIPAA Security Rule safeguards, NIST CSF 2.0 mapping, incident response, backup readiness, and third-party risk.</li>
+            </ul>
+          </div>
+          <div class="card">
+            <h4>Out Of Scope</h4>
+            <ul>
+              <li>Unsafe production exploitation, destructive testing, denial-of-service activity, and live PHI exposure.</li>
+              <li>Unapproved password harvesting, persistence deployment, or changes to patient-care systems during business hours.</li>
+              <li>Real patient names, production credentials, public IP addresses, vendor secrets, or client-identifying data.</li>
+            </ul>
+          </div>
+        </div>
+        <table>
+          <thead>
+            <tr>
+              <th>Engagement Area</th>
+              <th>Purpose</th>
+              <th>Representative Output</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Risk Assessment</td>
+              <td>Identify threats, vulnerabilities, likelihood, impact, and control gaps affecting ePHI and operations.</td>
+              <td>Risk register, heatmap, remediation priority, executive summary.</td>
+            </tr>
+            <tr>
+              <td>Penetration Testing</td>
+              <td>Safely validate whether identified weaknesses can become practical attack paths.</td>
+              <td>Attack narrative, proof summaries, screenshots or logs in sanitized form, retest results.</td>
+            </tr>
+            <tr>
+              <td>Compliance Review</td>
+              <td>Map controls to HIPAA administrative, physical, and technical safeguards.</td>
+              <td>Safeguard matrix, policy gaps, audit evidence checklist.</td>
+            </tr>
+            <tr>
+              <td>Third-Party Audit</td>
+              <td>Assess vendors supporting EMR, billing, cloud storage, VoIP, remote support, and managed services.</td>
+              <td>Vendor risk scores, contract/security questionnaire notes, corrective action tracking.</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section class="section" id="environment">
+        <span class="kicker">Summit Care Network</span>
+        <h2>Healthcare Network Security Context</h2>
+        <p class="lead">
+          Summit Care's mock environment represents a small but realistic medical clinic:
+          clinicians need fast access to patient records, billing staff handle financial
+          workflows, administrators manage scheduling and documents, and IT must protect
+          the network without slowing down patient care.
+        </p>
+        <div class="figure">
+          <img src="images/logicaldiagram.jpg" alt="Summit Care logical network diagram" />
+          <p class="caption">Figure 1. Existing Summit Care logical network material reused as the network context for this security assessment.</p>
+        </div>
+        <h3>Representative Segmentation Model</h3>
+        <table>
+          <thead>
+            <tr>
+              <th>Segment</th>
+              <th>Example Subnet</th>
+              <th>Primary Data / Function</th>
+              <th>Security Intent</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Clinical / EMR</td>
+              <td>10.7.10.0/24</td>
+              <td>ePHI, EMR access, charting stations</td>
+              <td>Restrict lateral movement and limit access to authorized clinical roles.</td>
+            </tr>
+            <tr>
+              <td>Billing / Finance</td>
+              <td>10.7.20.0/24</td>
+              <td>Claims, payment workflows, financial records</td>
+              <td>Separate payment and billing workflows from clinical and guest traffic.</td>
+            </tr>
+            <tr>
+              <td>Administration</td>
+              <td>10.7.30.0/24</td>
+              <td>Scheduling, HR, general office workstations</td>
+              <td>Apply least privilege and monitor document-sharing activity.</td>
+            </tr>
+            <tr>
+              <td>Server / Services</td>
+              <td>10.7.40.0/24</td>
+              <td>AD, DNS, DHCP, NPS/RADIUS, file services, monitoring</td>
+              <td>Limit management access; require MFA and admin workstation controls.</td>
+            </tr>
+            <tr>
+              <td>Voice / IoT</td>
+              <td>10.7.50.0/24</td>
+              <td>VoIP phones, printers, cameras, appliance-like devices</td>
+              <td>Prevent device networks from reaching ePHI systems except approved paths.</td>
+            </tr>
+            <tr>
+              <td>Guest Wireless</td>
+              <td>10.7.90.0/24</td>
+              <td>Patient and visitor internet access</td>
+              <td>Internet-only access with no route to internal clinical resources.</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section class="section" id="methodology">
+        <span class="kicker">Assessment Method</span>
+        <h2>How The Cyber Threat Analysis Was Conducted</h2>
+        <p class="lead">
+          The methodology combines the older cyber threat analysis workflow with the newer
+          Summit Care infrastructure design. It follows a defensible path: identify assets,
+          scan and validate vulnerabilities, test attack paths safely, rate risk, document
+          control gaps, and verify remediation.
+        </p>
+        <ol class="steps">
+          <li><strong>Discovery and asset inventory:</strong> Review diagrams, IP ranges, server roles, endpoint groups, cloud services, access methods, and business processes.</li>
+          <li><strong>Threat modeling:</strong> Identify likely adversary behaviors affecting a clinic, including phishing, stolen credentials, exposed remote access, unpatched services, ransomware, and vendor compromise.</li>
+          <li><strong>Vulnerability assessment:</strong> Use Nmap, Nessus/OpenVAS-style scanning, configuration review, log review, and manual validation to reduce false positives.</li>
+          <li><strong>Controlled penetration testing:</strong> Simulate external, internal, wireless, web application, and privileged-user scenarios without exposing real PHI or disrupting care.</li>
+          <li><strong>Risk rating:</strong> Score each finding by likelihood, business impact, data sensitivity, exploitability, and compensating controls.</li>
+          <li><strong>Remediation and retest:</strong> Assign owners, set timelines, validate fixes, and document remaining risk accepted by leadership.</li>
+        </ol>
+        <div class="grid-3">
+          <div class="card">
+            <h4>Tools Represented</h4>
+            <p>Nmap, Wireshark, Burp Suite, Metasploit in a lab context, Nessus/OpenVAS-style scanners, PowerShell, Python, firewall logs, Windows Event logs, and Microsoft security reporting.</p>
+          </div>
+          <div class="card">
+            <h4>Frameworks Represented</h4>
+            <p>NIST CSF 2.0, HIPAA Security Rule safeguards, OWASP testing concepts, CIS-style hardening practices, and internal risk scoring.</p>
+          </div>
+          <div class="card">
+            <h4>Evidence Types</h4>
+            <p>Asset list, scope memo, scan summaries, sanitized proof screenshots, firewall exports, policy review notes, vendor questionnaires, and retest logs.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="asset-classification">
+        <span class="kicker">Asset Classification</span>
+        <h2>Critical Systems, Data Types, And Business Impact</h2>
+        <p class="lead">
+          Security decisions were prioritized around the systems that store, process, or
+          provide access to ePHI, billing records, user identities, network controls, and
+          recovery data.
+        </p>
+        <table>
+          <thead>
+            <tr>
+              <th>Asset / System</th>
+              <th>Data Type</th>
+              <th>Business Impact</th>
+              <th>Baseline Control Requirement</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>EMR Application / Clinical Workstations</td>
+              <td>ePHI, patient charts, encounter notes</td>
+              <td>Critical: direct patient-care disruption and reportable privacy risk.</td>
+              <td>MFA where supported, role-based access, session timeout, endpoint protection, audit logging.</td>
+            </tr>
+            <tr>
+              <td>Billing System / Claims Workflow</td>
+              <td>Financial records, claim identifiers, limited PHI</td>
+              <td>High: revenue disruption, fraud exposure, privacy concern.</td>
+              <td>Web hardening, database least privilege, secure coding, access review, encrypted backups.</td>
+            </tr>
+            <tr>
+              <td>Active Directory / Entra Identity</td>
+              <td>User identities, groups, access policy</td>
+              <td>Critical: compromise can enable broad lateral movement.</td>
+              <td>MFA, privileged access workstations, tiered admin groups, lockout policy, audit logging.</td>
+            </tr>
+            <tr>
+              <td>Firewall, Switches, Wireless Controllers</td>
+              <td>Network policy, routes, VLAN enforcement</td>
+              <td>High: misconfiguration can expose internal systems.</td>
+              <td>Centralized config backup, named admin accounts, secure management VLAN, change control.</td>
+            </tr>
+            <tr>
+              <td>NAS / Backup Repository</td>
+              <td>System backups, file shares, configuration exports</td>
+              <td>Critical: ransomware resilience depends on backup integrity.</td>
+              <td>Immutable or offline copy, restricted admin, encryption, restore testing, separate credentials.</td>
+            </tr>
+            <tr>
+              <td>VoIP, Printers, Cameras, IoT</td>
+              <td>Operational metadata, possible documents or call records</td>
+              <td>Medium: pivot risk and privacy-adjacent exposure.</td>
+              <td>Separate VLAN, default credential removal, firmware updates, egress limits.</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section class="section" id="threat-model">
+        <span class="kicker">Threat Model</span>
+        <h2>Realistic Cyber Threat Scenarios For A Clinic Network</h2>
+        <p class="lead">
+          The highest-value risks were not treated as isolated technical bugs. They were
+          analyzed as business scenarios that could affect patient care, PHI confidentiality,
+          billing operations, staff productivity, and regulatory posture.
+        </p>
+        <div class="grid-2">
+          <div class="finding high">
+            <h4>Scenario A: Credential Theft To EMR Access <span class="risk-high">High</span></h4>
+            <p>A targeted phishing email captures a staff password. Without MFA and conditional access, the attacker attempts cloud email access, searches messages for vendor portals, and uses the same identity against VPN or remote desktop services.</p>
+            <p><strong>Controls:</strong> MFA, phishing-resistant training, impossible-travel alerts, passwordless options, log review, and user access reviews.</p>
+          </div>
+          <div class="finding critical">
+            <h4>Scenario B: Ransomware Through Unpatched Endpoint <span class="risk-critical">Critical</span></h4>
+            <p>An outdated workstation or exposed service allows code execution. The attacker disables local defenses, moves to file shares, encrypts operational data, and pressures the clinic during patient-care hours.</p>
+            <p><strong>Controls:</strong> EDR, patch SLAs, application control, network segmentation, restricted admin rights, immutable backup copies, restore testing.</p>
+          </div>
+          <div class="finding high">
+            <h4>Scenario C: Billing Portal SQL Injection <span class="risk-high">High</span></h4>
+            <p>A vulnerable billing interface accepts unsafe input and allows unauthorized database queries in a test environment. The potential impact includes claim record exposure, financial tampering, and compliance investigation.</p>
+            <p><strong>Controls:</strong> Parameterized queries, secure SDLC, WAF rules, database least privilege, code review, and web application retesting.</p>
+          </div>
+          <div class="finding medium">
+            <h4>Scenario D: Vendor Remote Support Misuse <span class="risk-medium">Medium</span></h4>
+            <p>A third-party support tool has broad access, inconsistent MFA, or unclear logging. If a vendor account is compromised, the clinic may inherit the attacker path.</p>
+            <p><strong>Controls:</strong> Vendor MFA attestation, named accounts, just-in-time access, session recording, contract security clauses, annual review.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="pentest">
+        <span class="kicker">Penetration Testing</span>
+        <h2>Controlled Testing Narrative And Findings</h2>
+        <p class="lead">
+          Penetration testing was positioned as validation of risk, not a hunt for dramatic
+          exploits. The test plan measured whether Summit Care's controls could prevent,
+          detect, and contain realistic attack paths.
+        </p>
+        <h3>Testing Phases</h3>
+        <table>
+          <thead>
+            <tr>
+              <th>Phase</th>
+              <th>Representative Activity</th>
+              <th>Security Skill Demonstrated</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Reconnaissance</td>
+              <td>Mapped exposed services, email patterns, DNS records, VPN entry points, and internal subnets after authorization.</td>
+              <td>Scope control, OSINT discipline, network enumeration, evidence capture.</td>
+            </tr>
+            <tr>
+              <td>Vulnerability Validation</td>
+              <td>Compared scan findings against service versions, patch levels, configuration files, and manual checks.</td>
+              <td>False-positive reduction, CVSS interpretation, secure configuration review.</td>
+            </tr>
+            <tr>
+              <td>Web Application Testing</td>
+              <td>Reviewed billing and portal workflows for injection risk, authentication weakness, session handling, and error leakage.</td>
+              <td>OWASP-style testing, Burp proxy workflow, remediation documentation.</td>
+            </tr>
+            <tr>
+              <td>Internal Segmentation</td>
+              <td>Attempted controlled reachability from admin, billing, clinical, IoT, and guest networks to verify firewall intent.</td>
+              <td>VLAN/ACL testing, least-privilege validation, lateral movement analysis.</td>
+            </tr>
+            <tr>
+              <td>Privileged Access Review</td>
+              <td>Reviewed local admin membership, domain admin exposure, shared credentials, service accounts, and remote management paths.</td>
+              <td>Identity risk analysis, privilege tiering, Windows security review.</td>
+            </tr>
+          </tbody>
+        </table>
+        <h3>Representative Penetration Test Findings</h3>
+        <div class="grid-2">
+          <div class="finding critical">
+            <h4>PT-01: Domain Admin Exposure On Workstations <span class="risk-critical">Critical</span></h4>
+            <p><strong>Observation:</strong> Administrative credentials were used on general-purpose workstations, increasing the chance that endpoint compromise could become domain compromise.</p>
+            <p><strong>Recommendation:</strong> Implement privileged access workstations, remove standing admin access, rotate admin credentials, and enforce tiered administration.</p>
+          </div>
+          <div class="finding high">
+            <h4>PT-02: Weak SSH / Network Device Management <span class="risk-high">High</span></h4>
+            <p><strong>Observation:</strong> Network management services were reachable from broader internal segments than required, and older algorithms/default settings were present in the mock review.</p>
+            <p><strong>Recommendation:</strong> Restrict management to a hardened admin VLAN, use named accounts, disable legacy algorithms, and centralize logs.</p>
+          </div>
+          <div class="finding high">
+            <h4>PT-03: Billing Portal Injection Risk <span class="risk-high">High</span></h4>
+            <p><strong>Observation:</strong> Testing identified unsafe input handling in a simulated billing workflow, creating a path to unauthorized query behavior.</p>
+            <p><strong>Recommendation:</strong> Use parameterized queries, input validation, code review, least-privilege database accounts, and retest before production release.</p>
+          </div>
+          <div class="finding medium">
+            <h4>PT-04: Guest Network Egress And Discovery Noise <span class="risk-medium">Medium</span></h4>
+            <p><strong>Observation:</strong> Guest Wi-Fi was logically separate from clinical systems, but excessive outbound freedom and device discovery created unnecessary attack surface.</p>
+            <p><strong>Recommendation:</strong> Enforce client isolation, DNS filtering, rate limits, internet-only routing, and captive portal policy acknowledgement.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="risk-register">
+        <span class="kicker">Risk Register</span>
+        <h2>Prioritized Vulnerability And Risk Assessment Results</h2>
+        <p class="lead">
+          Risks were scored using impact and likelihood, with extra weight added for ePHI,
+          identity systems, patient-care availability, and whether the issue could be chained
+          with another weakness.
+        </p>
+        <table>
+          <thead>
+            <tr>
+              <th>ID</th>
+              <th>Risk</th>
+              <th>Impact</th>
+              <th>Likelihood</th>
+              <th>Rating</th>
+              <th>Owner</th>
+              <th>Remediation</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>R-01</td>
+              <td>Privileged credentials exposed on normal endpoints</td>
+              <td>5</td>
+              <td>4</td>
+              <td><span class="risk-critical">Critical</span></td>
+              <td>IT / Security</td>
+              <td>Admin tiering, PAWs, LAPS/credential rotation, MFA, monitoring.</td>
+            </tr>
+            <tr>
+              <td>R-02</td>
+              <td>Unpatched EMR-supporting web service</td>
+              <td>5</td>
+              <td>3</td>
+              <td><span class="risk-high">High</span></td>
+              <td>Systems</td>
+              <td>Patch SLA, vulnerability scanning, maintenance windows, compensating WAF rules.</td>
+            </tr>
+            <tr>
+              <td>R-03</td>
+              <td>Billing portal injection weakness</td>
+              <td>5</td>
+              <td>3</td>
+              <td><span class="risk-high">High</span></td>
+              <td>Application / Vendor</td>
+              <td>Secure coding fix, database least privilege, code review, web retest.</td>
+            </tr>
+            <tr>
+              <td>R-04</td>
+              <td>Remote access policy inconsistent across VPN and cloud tools</td>
+              <td>4</td>
+              <td>3</td>
+              <td><span class="risk-high">High</span></td>
+              <td>Identity</td>
+              <td>MFA everywhere, conditional access, device compliance, log alerting.</td>
+            </tr>
+            <tr>
+              <td>R-05</td>
+              <td>Third-party remote support lacks complete audit evidence</td>
+              <td>4</td>
+              <td>3</td>
+              <td><span class="risk-high">High</span></td>
+              <td>Vendor Management</td>
+              <td>Vendor questionnaire, MFA proof, BAA review, access expiration, session logging.</td>
+            </tr>
+            <tr>
+              <td>R-06</td>
+              <td>Backup restore testing not fully documented</td>
+              <td>5</td>
+              <td>2</td>
+              <td><span class="risk-medium">Medium</span></td>
+              <td>IT Operations</td>
+              <td>Quarterly restore test, immutable copy, backup success alerts, runbook update.</td>
+            </tr>
+            <tr>
+              <td>R-07</td>
+              <td>Default or weak SNMP strings on network devices</td>
+              <td>3</td>
+              <td>3</td>
+              <td><span class="risk-medium">Medium</span></td>
+              <td>Network</td>
+              <td>Disable SNMPv1/v2c where possible, enforce SNMPv3, limit source IPs.</td>
+            </tr>
+            <tr>
+              <td>R-08</td>
+              <td>User phishing susceptibility in finance and scheduling groups</td>
+              <td>4</td>
+              <td>3</td>
+              <td><span class="risk-high">High</span></td>
+              <td>Security / HR</td>
+              <td>Targeted training, simulated campaigns, reporting button, MFA, email filtering.</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section class="section" id="hipaa">
+        <span class="kicker">HIPAA Alignment</span>
+        <h2>HIPAA Security Rule And Compliance Facts</h2>
+        <p class="lead">
+          The HIPAA Security Rule requires regulated entities to protect electronic
+          protected health information with appropriate administrative, physical, and
+          technical safeguards. For this mock clinic, the practical compliance focus is
+          risk analysis, access control, audit controls, integrity, transmission security,
+          workforce security, contingency planning, and vendor oversight.
+        </p>
+        <table>
+          <thead>
+            <tr>
+              <th>HIPAA Safeguard Area</th>
+              <th>Summit Care Control Evidence</th>
+              <th>Risk Assessment Notes</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Administrative Safeguards</td>
+              <td>Security responsibility assigned, access review process, workforce training, incident response plan, vendor review.</td>
+              <td>Needs stronger recurring evidence: signed policy acknowledgements, quarterly access reviews, and management acceptance of residual risk.</td>
+            </tr>
+            <tr>
+              <td>Physical Safeguards</td>
+              <td>Server/network closet control, UPS protection, workstation placement, visitor separation, device inventory.</td>
+              <td>Improve checklist evidence for device disposal, physical access review, and environmental controls.</td>
+            </tr>
+            <tr>
+              <td>Technical Safeguards</td>
+              <td>Unique user IDs, MFA, role-based access, firewall segmentation, encryption, audit logs, endpoint protection.</td>
+              <td>Most important gaps are privileged access management, log review cadence, and technical proof of backup recovery.</td>
+            </tr>
+            <tr>
+              <td>Risk Analysis / Risk Management</td>
+              <td>Asset inventory, risk register, vulnerability scan summaries, remediation roadmap, retest documentation.</td>
+              <td>Convert assessment into a living risk register reviewed by leadership each quarter.</td>
+            </tr>
+            <tr>
+              <td>Business Associate / Vendor Oversight</td>
+              <td>BAA tracking, vendor access list, remote support review, third-party questionnaire.</td>
+              <td>Require proof of vendor MFA, breach notice terms, encryption practices, and access termination process.</td>
+            </tr>
+          </tbody>
+        </table>
+        <div class="callout">
+          <strong>Important compliance framing:</strong> This report supports a HIPAA-aware
+          security program, but it is not a legal opinion or formal compliance certification.
+          A real covered entity should have counsel and compliance leadership validate final
+          policies, breach procedures, and regulatory obligations.
+        </div>
+      </section>
+
+      <section class="section" id="third-party">
+        <span class="kicker">Third-Party Risk</span>
+        <h2>Vendor And External Audit Program</h2>
+        <p class="lead">
+          Healthcare clinics rely heavily on vendors: EMR platforms, billing services,
+          VoIP providers, MSPs, backup platforms, cloud storage, email security, internet
+          service providers, and remote support tools. Each vendor can become part of the
+          clinic's attack surface.
+        </p>
+        <table>
+          <thead>
+            <tr>
+              <th>Vendor Category</th>
+              <th>Example Risk</th>
+              <th>Audit Evidence Requested</th>
+              <th>Decision</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>EMR Provider</td>
+              <td>PHI exposure, uptime dependency, privileged support access.</td>
+              <td>BAA, SOC 2 or security summary, encryption statement, support access process, breach notification terms.</td>
+              <td><span class="status">Monitor</span></td>
+            </tr>
+            <tr>
+              <td>Billing / Claims Vendor</td>
+              <td>Financial data compromise, web application vulnerability, weak support controls.</td>
+              <td>Secure SDLC statement, vulnerability management proof, MFA attestation, data retention policy.</td>
+              <td><span class="status">Remediate</span></td>
+            </tr>
+            <tr>
+              <td>Managed IT / Remote Support</td>
+              <td>Broad admin access, shared accounts, incomplete logging.</td>
+              <td>Named account list, MFA proof, session logs, access expiration process, background check policy summary.</td>
+              <td><span class="status">Restrict</span></td>
+            </tr>
+            <tr>
+              <td>Cloud Backup Provider</td>
+              <td>Backup deletion, account takeover, restore failure.</td>
+              <td>Immutable backup options, encryption, restore testing logs, admin MFA, data residency statement.</td>
+              <td><span class="status">Approve</span></td>
+            </tr>
+          </tbody>
+        </table>
+        <div class="band">
+          <h4>Third-Party Audit Checklist</h4>
+          <ul>
+            <li>Confirm whether vendor handles ePHI and whether a Business Associate Agreement is required.</li>
+            <li>Require named accounts, MFA, and least-privilege support roles for remote access.</li>
+            <li>Review breach notification terms, data retention, encryption, backup, and subcontractor language.</li>
+            <li>Track corrective actions, due dates, vendor owner, and risk acceptance decisions.</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="section" id="monitoring">
+        <span class="kicker">Monitoring & Auditing</span>
+        <h2>Routine Security Operations And Evidence Cadence</h2>
+        <p class="lead">
+          The older automation and routine auditing content has been converted into an
+          operations model for Summit Care. The point is to make security repeatable:
+          collect logs, check baselines, review access, scan for vulnerabilities, and prove
+          that backups and controls still work.
+        </p>
+        <div class="grid-4">
+          <div class="card">
+            <h4>Daily</h4>
+            <p>Review critical alerts, backup status, endpoint protection status, failed admin logons, and firewall deny spikes.</p>
+          </div>
+          <div class="card">
+            <h4>Weekly</h4>
+            <p>Review vulnerability deltas, firewall changes, high-risk email events, VPN activity, and privileged group changes.</p>
+          </div>
+          <div class="card">
+            <h4>Monthly</h4>
+            <p>Patch servers and network devices, review inactive accounts, validate guest Wi-Fi separation, and export key configs.</p>
+          </div>
+          <div class="card">
+            <h4>Quarterly</h4>
+            <p>Run access recertification, restore-test backups, tabletop incident response, vendor review, and risk register update.</p>
+          </div>
+        </div>
+        <h3>Log Sources To Centralize</h3>
+        <table>
+          <thead>
+            <tr>
+              <th>Source</th>
+              <th>Events Of Interest</th>
+              <th>Security Value</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Firewall / VPN</td>
+              <td>Denied traffic, new remote access sessions, geo-anomalies, rule changes.</td>
+              <td>Detect perimeter attacks, misuse, and segmentation bypass attempts.</td>
+            </tr>
+            <tr>
+              <td>Active Directory / Entra</td>
+              <td>Privileged group changes, failed logins, MFA prompts, risky sign-ins.</td>
+              <td>Detect account compromise and identity drift.</td>
+            </tr>
+            <tr>
+              <td>Endpoint Protection</td>
+              <td>Malware blocks, suspicious scripts, disabled agents, isolation events.</td>
+              <td>Detect ransomware and endpoint compromise early.</td>
+            </tr>
+            <tr>
+              <td>EMR / Billing Applications</td>
+              <td>Export activity, failed authentication, abnormal access hours, privilege changes.</td>
+              <td>Support HIPAA audit controls and privacy investigations.</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section class="section" id="incident-response">
+        <span class="kicker">Response & Recovery</span>
+        <h2>Incident Response, Disaster Recovery, And Business Continuity</h2>
+        <p class="lead">
+          A security assessment is incomplete unless the organization can respond when a
+          control fails. Summit Care's response model is built around detection, containment,
+          eradication, recovery, communication, and lessons learned.
+        </p>
+        <div class="grid-3">
+          <div class="card">
+            <h4>Ransomware Playbook</h4>
+            <p>Isolate affected VLANs, preserve evidence, disable suspect accounts, validate backup integrity, restore priority services, and notify leadership/compliance.</p>
+          </div>
+          <div class="card">
+            <h4>Lost Device / ePHI Exposure</h4>
+            <p>Confirm encryption and MDM status, remote lock or wipe, assess data involved, document timeline, and trigger privacy review if needed.</p>
+          </div>
+          <div class="card">
+            <h4>Vendor Account Compromise</h4>
+            <p>Disable vendor access, collect session logs, rotate affected credentials, verify systems touched, and require vendor corrective action.</p>
+          </div>
+        </div>
+        <h3>Recovery Priorities</h3>
+        <table>
+          <thead>
+            <tr>
+              <th>Priority</th>
+              <th>Service</th>
+              <th>Target Recovery Approach</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td>Identity, DNS, DHCP, network core</td>
+              <td>Restore foundational access first; validate clean admin credentials and firewall rules.</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>EMR and clinical workstations</td>
+              <td>Restore patient-care operations using verified backups or vendor continuity procedures.</td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>Billing, file shares, printing, voice</td>
+              <td>Restore operational workflows after clinical systems are stable.</td>
+            </tr>
+            <tr>
+              <td>4</td>
+              <td>Guest Wi-Fi, nonessential IoT, secondary services</td>
+              <td>Return lower-priority services after monitoring confirms clean recovery.</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section class="section" id="roadmap">
+        <span class="kicker">Remediation Roadmap</span>
+        <h2>30 / 60 / 90 Day Security Improvement Plan</h2>
+        <p class="lead">
+          The roadmap translates findings into practical work that a clinic can actually
+          execute. Immediate actions reduce the most dangerous paths; later actions mature
+          monitoring, governance, and audit evidence.
+        </p>
+        <table>
+          <thead>
+            <tr>
+              <th>Timeline</th>
+              <th>Actions</th>
+              <th>Success Evidence</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>0-30 Days</td>
+              <td>Enforce MFA for remote/cloud access, remove shared admin accounts, patch critical systems, isolate guest Wi-Fi, review vendor access, confirm backup success alerts.</td>
+              <td>MFA report, patch report, updated firewall rules, vendor account list, backup dashboard export.</td>
+            </tr>
+            <tr>
+              <td>31-60 Days</td>
+              <td>Implement privileged access workstation model, database least privilege, SNMPv3, centralized logging, phishing reporting workflow, and secure configuration baselines.</td>
+              <td>Admin group review, baseline screenshots, SIEM/log dashboard, phishing test metrics.</td>
+            </tr>
+            <tr>
+              <td>61-90 Days</td>
+              <td>Perform retest, restore-test backups, complete HIPAA safeguard evidence binder, run incident response tabletop, complete third-party risk reviews.</td>
+              <td>Retest letter, restore test record, tabletop after-action report, completed vendor register.</td>
+            </tr>
+            <tr>
+              <td>Ongoing</td>
+              <td>Quarterly vulnerability scans, annual penetration test, monthly access review, continuous monitoring, policy refresh, and leadership risk review.</td>
+              <td>Recurring audit calendar, risk register updates, board/leadership summary, control exceptions log.</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section class="section" id="appendix">
+        <span class="kicker">Appendix</span>
+        <h2>Evidence Pack, Deliverables, And References</h2>
+        <p class="lead">
+          The final security portfolio should include enough evidence for a reviewer to
+          understand the work without exposing live secrets. The items below can be used as
+          a clean index for screenshots, exports, and sanitized technical artifacts.
+        </p>
+        <div class="grid-2">
+          <div class="card">
+            <h4>Recommended Evidence Pack</h4>
+            <ul>
+              <li>Sanitized network diagram and VLAN map.</li>
+              <li>Asset inventory and data classification sheet.</li>
+              <li>Vulnerability scan summary and false-positive notes.</li>
+              <li>Penetration testing scope memo and executive findings.</li>
+              <li>Risk register with owners, due dates, and retest status.</li>
+              <li>HIPAA safeguard matrix and audit evidence checklist.</li>
+              <li>Third-party/vendor risk questionnaire summary.</li>
+              <li>Incident response tabletop and backup restore test report.</li>
+            </ul>
+          </div>
+          <div class="card">
+            <h4>Key Deliverables Created</h4>
+            <ul>
+              <li>Cyber Threat Analysis and Risk Assessment Master Report.</li>
+              <li>Penetration testing narrative and representative findings.</li>
+              <li>HIPAA-aware control alignment and compliance evidence plan.</li>
+              <li>Third-party audit framework for healthcare vendors.</li>
+              <li>30 / 60 / 90 day remediation roadmap.</li>
+              <li>Ongoing monitoring and routine audit cadence.</li>
+            </ul>
+          </div>
+        </div>
+        <h3>References Used For Current Compliance Framing</h3>
+        <div class="references">
+          <ol>
+            <li>HHS, <a href="https://www.hhs.gov/hipaa/for-professionals/security/index.html">The Security Rule</a>, content last reviewed March 19, 2026.</li>
+            <li>HHS, <a href="https://www.hhs.gov/hipaa/for-professionals/security/laws-regulations/index.html">Summary of the HIPAA Security Rule</a>.</li>
+            <li>HHS, <a href="https://www.hhs.gov/ocr/privacy/hipaa/administrative/securityrule/securityruleguidance.html">Security Rule Guidance Material</a>.</li>
+            <li>NIST, <a href="https://www.nist.gov/publications/nist-cybersecurity-framework-csf-20">The NIST Cybersecurity Framework (CSF) 2.0</a>, published February 26, 2024.</li>
+            <li>NIST, <a href="https://www.nist.gov/cyberframework/faqs">Cybersecurity Framework FAQs</a>, describing the six CSF functions: Govern, Identify, Protect, Detect, Respond, Recover.</li>
+          </ol>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
