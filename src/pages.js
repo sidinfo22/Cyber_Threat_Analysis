@@ -18,8 +18,8 @@ export const pages = [
   {
     slug: 'index',
     route: '/',
-    fileName: 'index.html',
-    title: 'Upgrading The Network | Gold Standard Network Infrastructure',
+    fileName: 'cyber-threat-risk-master-report.html',
+    title: 'Summit Care Medical Clinic Cyber Threat Analysis & Risk Assessment',
   },
   {
     slug: 'objectives',

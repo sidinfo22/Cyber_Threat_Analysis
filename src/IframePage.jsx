@@ -1,10 +1,11 @@
 import { useEffect } from 'react';
 
 const DESCRIPTION =
-  'A virtual mock blueprint for upgrading a small medical office network from basic small office infrastructure to enterprise-grade standards, covering design, inventory, deployment, hybrid cloud, cybersecurity, compliance, and scalability.';
+  'Summit Care Medical Clinic cybersecurity portfolio covering cyber threat analysis, penetration testing, HIPAA-aware risk assessment, third-party audits, incident response, and remediation planning.';
 
 function updateMeta(page) {
-  document.title = page.title || 'Upgrading The Network';
+  document.title =
+    page.title || 'Summit Care Medical Clinic Cyber Threat Analysis & Risk Assessment';
 
   let metaDescription = document.querySelector('meta[name="description"]');
   if (!metaDescription) {
